@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Order",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Order Form > Coupon inquiry/apply (FO_MC_OR011011P)",
+        "description": "./order/coupon-apply",
+        "link": "/order-product?member=yes",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Terms of use (FO_MC_OR014002P)",
+        "description": "./order/terms-of-use",
+        "link": "/order-product/11?modal=terms_of_use",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Terms and conditions (FO_MC_OR014003P)",
+        "description": "./order/terms-and-conditions",
+        "link": "/order-product/11?modal=terms_and_conditions",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Order form Member General products Delivery address (FO_MC_OR011000, FO_MC_OR011003P, FO_MC_OR011004P, FO_MC_OR011007P, FO_MC_OR011008P, FO_MC_OR011009P)",
+        "description": "./order-product?cartKey=1&cartProductKeys=35,36",
+        "link": "/order-product?cartKey=1&cartProductKeys=35,36",
+        "history": "1226 0328 0329",
+        "visible": true
+      },
+      {
+        "title": "Multiple delivery addresses (FO_MC_OR012000)",
+        "description": "./order-product?member=yes",
+        "link": "/order-product?member=yes",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "One-time payment discount information (FO_MC_OR011001P)",
+        "description": "./order-product?member=yes",
+        "link": "/order-product?member=yes",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Electronic coupons for members (FO_MC_OR013000)",
+        "description": "./order-product-coupon-e/1?quantity=1",
+        "link": "/order-product-coupon-e/1?quantity=1",
+        "history": "1226 0405",
+        "visible": true
+      },
+      {
+        "title": "Electronic coupons for members-Send to multiple people (FO_MC_OR013001)",
+        "description": "./order-product-coupon-e/1?quantity=2",
+        "link": "/order-product-coupon-e/1?quantity=2",
+        "history": "1226 0405",
+        "visible": true
+      },
+      {
+        "title": "Information about electronic coupon product points (FO_MC_OR013001P)",
+        "description": "./order-product-coupon-e/2",
+        "link": "/order-product-coupon-e/2",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Non-member order form (FO_MC_OR014000)",
+        "description": "./order-product?member=no",
+        "link": "/order-product?member=no",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Verify non-member identity (FO_MC_OR014001)",
+        "description": "./order-product/1",
+        "link": "/order-product/1",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Verify the identity of a non-member's mobile phone number (FO_MC_OR015000)",
+        "description": "./order/certification",
+        "link": "/order/certification",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Order completed Members (FO_MC_OC011000)",
+        "description": "./order-completed-delivery/1",
+        "link": "/order-completed-delivery/1",
+        "history": "1226 0405 0419",
+        "visible": true
+      },
+      {
+        "title": "Order completed Members Multiple Delivery Address (FO_MC_OC011001)",
+        "description": "./order-completed-delivery/2",
+        "link": "/order-completed-delivery/2",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Order completed Not Members (FO_MC_OC012000)",
+        "description": "./order-completed-delivery/2?member=no",
+        "link": "/order-completed-delivery/2?member=no",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Order coupon completed (FO_MC_OC013000)",
+        "description": "./order-coupon-completed/1",
+        "link": "/order-coupon-completed/1",
+        "history": "1226 0405 0419",
+        "visible": true
+      }
+    ]
+  }
+]

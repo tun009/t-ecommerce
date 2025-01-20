@@ -1,0 +1,16 @@
+{
+  "button": {
+    "btnExpander": "펼치기",
+    "btnCollapse": "간소화",
+    "view": "조회하기",
+    "apply": "적용",
+    "cancel": "취소",
+    "viewContent": "내용보기",
+    "resendNumber": "인증번호 재발송",
+    "sendNumber": "인증번호 발송",
+    "check": "확인",
+    "registration": "등록",
+    "edit": "수정",
+    "delete": "삭제"
+  }
+}

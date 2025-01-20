@@ -1,0 +1,38 @@
+@import '../commons/welfare-variables';
+
+.btn-tag-color {
+  border-radius: 2px;
+  font-style: normal;
+  letter-spacing: -1px;
+
+  line-height: 100%;
+}
+
+.btn-tag-color.normal:not(:disabled) {
+  background-color: $gray-eee;
+  color: $gray3;
+}
+
+.btn-tag-color.selected:not(:disabled),
+.btn-tag-color:hover:not(:disabled) {
+  background-color: $blue-d2;
+  color: $blue;
+}
+
+.btn-tag-color:disabled {
+  background-color: $red-fc;
+  color: $red;
+}
+
+.btn-tag-color.sm {
+  font-size: $font-11;
+  font-weight: $wei-600;
+  padding: 4px 6px;
+}
+
+.btn-tag-color.lg {
+  font-size: $font-15;
+  font-weight: $wei-400;
+
+  padding: 8px 10px;
+}

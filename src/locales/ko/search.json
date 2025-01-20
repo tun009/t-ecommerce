@@ -1,0 +1,60 @@
+{
+  "search": {
+    "notWriteReview": "상품 구매 시에만 상품평 작성이 가능합니다.",
+    "searchPage": {
+      "titleSearchRecently": "최근 검색어",
+      "emptySearchRecently": "최근 검색어가 없습니다.",
+      "titleSearchPopular": "인기 검색어",
+      "timeSearchPopular": "기준",
+      "deleteAll": "검색어가 모두 삭제 됩니다.",
+      "inputPlaceholder": "검색어를 입력해주세요",
+      "noProductInCategory": "카테고리에 상품이 없습니다."
+    },
+    "sections": {
+      "recommend": "추천 상품",
+      "similar": "방금 본 상품과 비슷한 상품",
+      "purchased": "방금 본 상품과 비슷한 상품",
+      "mostPurchased": "많이 구매한 상품",
+      "related": "연관 검색어",
+      "exhibitionEvents": {
+        "title": "기획전/이벤트",
+        "close": "닫기",
+        "more": "기획전/이벤트 더보기"
+      }
+    },
+    "tabControl": {
+      "toolTipSort": "추천상품순은 판매실적, 상품명, 카테고리 정확도 등을 종합적으로 고려하여 정렬됩니다."
+    },
+    "emptyResult": {
+      "title": "검색 결과가 없습니다.",
+      "subTitle1": "검색어가 정확한지 다시 확인해주세요.",
+      "subTitle2": "일시적으로 상품이 품절 되었을 수 있습니다.",
+      "subTitle3": "검색어의 띄어쓰기를 다르게 해보세요.",
+      "subTitle4": "보다 일반적인 검색어로 다시 검색해 보세요."
+    },
+    "searchCommon": {
+      "buttonView": "상품보기"
+    },
+    "searchPriceRange": {
+      "won": "원",
+      "invalidRange": "범위에 맞지 않습니다."
+    },
+    "searchDisplayType": {
+      "displayType": "로 보기"
+    },
+    "searchBrand": {
+      "freeDelivery": "무료배송",
+      "discountCounpon": "할인쿠폰",
+      "freeInterest": "무이자"
+    },
+    "searchSort": {
+      "recommend": "추천상품순",
+      "popular": "인기상품순",
+      "registerRecent": "최근등록순",
+      "priceDesc": "높은가격순",
+      "priceAsc": "낮은가격순",
+      "rating": "상품평순",
+      "mostView": "조회순"
+    }
+  }
+}

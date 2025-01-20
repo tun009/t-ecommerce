@@ -1,0 +1,16 @@
+@import '../commons/welfare-variables';
+
+.mz-header {
+  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1100;
+}
+
+.wf-navigation-header {
+  padding-top: 20px;
+  height: 111px;
+  transition: all 0.3s;
+}

@@ -1,0 +1,14 @@
+{
+  "message": {
+      "ChooseStateAddressDelivery": "The order/delivery address you have entered so far will be reset. Do you want to proceed?",
+      "changeBankPayment": "If you change to a payment method other than card payment, the KRW 000,000 discount will be canceled. Do you want to proceed?",
+      "enterYourAddress": "Please enter your shipping address.",
+      "enterYourEmail": "Enter your email address.",
+      "enterNameAndAdress": "Please enter your name and address.",
+      "enterPhone": "Please enter your phone number.",
+      "enterNameAddress": "Please enter the name of the person ordering.",
+      "numberCodeSended": "A verification code has been sent to the number you entered.",
+      "emptyDate": "Please enter the search start or end date.",
+      "fromDateGreaterThanToDate": "You entered a search start date that is in the future than the end date."
+  }
+}

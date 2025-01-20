@@ -1,0 +1,161 @@
+@import '../commons/welfare-variables';
+
+.wf-unit-image {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.wf_w-20 {
+  width: 16.5%;
+}
+
+.wf-unit-image-state {
+  position: relative;
+}
+
+.wf-unit-image-state::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  content: attr(data-label);
+  inset: 0;
+  background: linear-gradient(0deg, $black-05 0%, $black-05 100%);
+  font-size: $font-14;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -1px;
+  color: $white-ff;
+  z-index: 2;
+}
+
+.wf_unit-product-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.wf_unit-product-image > .wf_unit-product-image-item {
+  width: 100%;
+  height: 100%;
+}
+
+.wf_unit-product-image > .wf_unit-product-image-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wf_unit-product-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 6px;
+}
+
+.wf_unit-product-image-relate {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.wf_unit-product-image-relate > .wf_unit-product-image-relate-icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.wf_unit-product-image-relate-item > img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+
+.wf-thumb-circle-sm > img {
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border: 1px solid $gray-ddd;
+  border-radius: 50%;
+}
+
+.wf-thumb-circle-md > img {
+  min-width: 28px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border: 1px solid $gray-ddd;
+  border-radius: 50%;
+}
+
+.wf_unit-product-group-buyer {
+  position: relative;
+  width: calc(24px + calc(12px * var(--avatar-count)));
+  height: 24px;
+}
+
+.wf_unit-product-group-buyer > .wf-thumb-circle-sm {
+  position: absolute;
+  top: 0;
+  left: calc(12px * var(--avatar-index));
+}
+
+.wf-unit_product-vertical--image {
+  min-width: 120px;
+  width: 120px;
+  height: 120px;
+}
+
+.wf-image-link-p {
+  padding-top: 55.102% !important;
+}
+
+.wf-image-link-banner {
+  padding-top: 53.3% !important;
+}
+
+.wf_unit-product-image-item-sale {
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  padding-top: 6px;
+  padding-left: 9px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+}
+
+.wf_unit-product-image-item-sale img {
+  width: 29px;
+}
+
+.wf-product-overlay {
+  position: relative;
+}
+
+.wf-product-overlay::after {
+  position: absolute;
+  display: block;
+  content: '';
+  inset: 0;
+  background-color: rgba($color: $gray1, $alpha: 0.5);
+  z-index: 3;
+}
+
+.wf-product-overlay::before {
+  position: absolute;
+  display: block;
+  content: '일시 품절';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  color: $white-FF;
+  font-size: $font-17;
+  font-weight: $wei-700;
+}

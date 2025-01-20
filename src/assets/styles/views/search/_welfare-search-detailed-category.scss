@@ -1,0 +1,32 @@
+@import '../../commons/_welfare-variables.scss';
+
+.wf_box-shadow-horizontal {
+  box-shadow: 0 -8px 15px -15px $black;
+  margin: 0 -16px;
+  width: initial !important;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+:deep(.p-tree-toggler) {
+  display: none;
+}
+:deep(.p-treenode-label) {
+  width: 100%;
+}
+
+:deep(.p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight) {
+  background: none;
+}
+
+:deep(.p-tree .p-tree-container .p-treenode:focus > .p-treenode-content) {
+  box-shadow: none;
+}
+
+:deep(.p-tree .p-tree-container .p-treenode .p-treenode-content.p-treenode-selectable:not(.p-highlight):hover) {
+  background: none;
+}
+
+:deep(.p-component) {
+  font-family: 'Pretendard';
+}

@@ -1,0 +1,68 @@
+@import '../commons/welfare-variables';
+/* primevue checkbox */
+:deep(.p-checkbox) {
+  display: flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0 !important;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none !important;
+}
+
+:deep(.p-checkbox-box) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  outline: 0 !important;
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
+  border: 1px solid $grey-e7;
+  cursor: pointer;
+  transition: none;
+  box-shadow: none !important;
+}
+
+:deep(.p-checkbox-box.p-highlight),
+:deep(.p-checkbox-box.p-checkbox-box-checked) {
+  border: var(--d_1) solid $gray1;
+}
+
+:deep(.p-checkbox-box.p-checkbox-disabled),
+:deep(.p-checkbox-box.p-checkbox-box-disabled) {
+  background-color: $grey-f5;
+  cursor: default;
+}
+
+:deep(.p-checkbox-box.p-checkbox-box-checked.p-checkbox-box-disabled) {
+  border: var(--d_1) solid $grey-e7;
+}
+
+:deep(.p-checkbox-icon) {
+  visibility: hidden;
+  transition: none;
+  stroke: $white;
+  fill: $gray1;
+}
+
+:deep(.p-checkbox-box.p-highlight .p-checkbox-icon),
+:deep(.p-checkbox-box.p-checkbox-box-checked .p-checkbox-icon) {
+  visibility: visible;
+}
+
+:deep(.p-checkbox-box.p-checkbox-disabled .p-checkbox-icon),
+:deep(.p-checkbox-box.p-checkbox-box-disabled .p-checkbox-icon) {
+  stroke: $grey-e7;
+  stroke-width: 2px;
+  fill: $grey-f5;
+}
+
+:deep(.p-checkbox-box.p-checkbox-disabled .p-checkbox-icon path),
+:deep(.p-checkbox-box.p-checkbox-box-disabled .p-checkbox-icon path) {
+  stroke: $gray6;
+}

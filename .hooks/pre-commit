@@ -1,0 +1,29 @@
+#!/bin/bash
+restrict_regex=$i
+validEmails=("cuongpg@aladintech.co" "tamnt@aladintech.co" "cuongnm@aladintech.co" "huynt@aladintech.co" "tuanna1@aladintech.co" "tiennd@aladintech.co" "thangnd@aladintech.co" "thoaivv@aladintech.co")
+validNames=("CuongPG" "TamNT" "CuongNM" "HuyNT" "TuanNA" "TienND" "ThangND" "ThoaiVV")
+currentEmail="$(git config user.email)"
+currentName="$(git config user.name)"
+isValidEmail=false
+isValidName=false
+
+
+for i in "${validEmails[@]}"
+	do
+		if [ "$currentEmail" = "$i" ]; then
+			isValidEmail=true
+		fi	 
+	done
+
+for name in "${validNames[@]}"
+	do
+		if [ "$currentName" = "$name" ]; then
+			isValidName=true
+		fi	 
+	done
+
+if [[ "$isValidEmail" == false ||  "$isValidName" == false ]];  then
+ echo -e "Your git's account ${currentName} <${currentEmail}> not allowed commit code to this repo. Please config correct your git account."
+ exit 1
+fi 
+

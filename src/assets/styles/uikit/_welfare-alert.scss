@@ -1,0 +1,57 @@
+@import '../commons/welfare-variables';
+
+.wf-alerts-group {
+  position: fixed;
+  width: calc(100vw - 40px);
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+
+  display: flex;
+  flex-direction: column-reverse;
+  transition: all 0.3s;
+}
+
+.wf-alert-container {
+  width: 100%;
+  min-height: 40px;
+  color: $white-ff;
+  padding: 13px 20px;
+  display: flex;
+}
+
+.wf-alert-show {
+  animation: show-alert 0.5s ease;
+}
+
+.wf-alert-alert-hide {
+  animation: hide-alert 0.3s ease forwards;
+}
+
+@keyframes show-alert {
+  from {
+    transform: translateY(calc(100%));
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes hide-alert {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  99% {
+    transform: translateY(calc(100%));
+    opacity: 0;
+  }
+
+  100% {
+    display: none;
+  }
+}

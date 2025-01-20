@@ -1,0 +1,40 @@
+@import '../../commons/welfare-variables';
+
+.wf-order-product-page {
+  margin-top: -9px;
+}
+
+.wf-order-product-page > div {
+  border-bottom: 1px solid $grey-e7;
+  padding: 21px 0;
+}
+
+.wf-order-product-page.wf-border-t-element > div:first-child {
+  border-top: 1px solid $gray7;
+}
+
+.wf-border-first-e .wf-order-product-page > div:first-child {
+  border-top: 1px solid $gray7;
+  padding-top: 16px;
+}
+
+.wf-order-btn-address > button {
+  flex: 1;
+  border-top: 1px solid $gray7;
+  border-bottom: 1px solid $gray7;
+  border-left: 1px solid $gray7;
+  background: $white-ff;
+  height: 49px;
+}
+
+.wf-order-btn-address > button:last-child {
+  border-right: 1px solid $gray7;
+}
+
+.wf-order-btn-address > button:hover,
+.wf-order-btn-address > button.selected {
+  border-color: $gray1;
+  background: $gray1;
+  color: $white-ff;
+  font-weight: 700;
+}

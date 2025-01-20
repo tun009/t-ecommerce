@@ -1,0 +1,84 @@
+.wf-my-page-delivery-address.modal-add-delivery-address {
+  padding-top: 21px;
+}
+
+.wf-my-page-delivery-address {
+  .delivery-address-type {
+    margin-bottom: 4px;
+  }
+
+  .address-information,
+  .tel-information {
+    padding-top: 24px;
+  }
+
+  .contact-information {
+    padding-top: 25px;
+  }
+}
+
+.wf-my-page-delivery-edit-address {
+  width: calc(100vw - 40px);
+  padding: 31px 20px 18px;
+  row-gap: 30px;
+
+  :deep(.wf-delivery-address-header) {
+    padding-right: 3px;
+  }
+
+  :deep(.wf-delivery-address-icon) {
+    padding-right: 1px;
+    margin-top: -4px;
+  }
+
+  .delivery-address-type {
+    padding-top: 13px;
+
+    > label {
+      column-gap: 9px;
+
+      :deep(span) {
+        padding-top: 2px;
+      }
+    }
+  }
+
+  .wf-delivery-address-receiver, .address-information, .contact-information {
+    padding-top: 25px;
+  }
+
+  .tel-information {
+    padding-top: 23px;
+  }
+  
+  .address-information {
+    column-gap: 24px;
+    justify-content: left;
+
+    > div > span {
+        padding-top: 1px !important;
+    }
+  }
+
+  .wf-delivery-address-kakao > button {
+    height: 40px !important;
+    width: 100px !important;
+    margin-bottom: 1px;
+  }
+
+  .wf-delivery-address-detail {
+    padding-top: 9px;
+  }
+
+  :deep(.wf_input-wrap) {
+    padding-left: 6px;
+  }
+
+  :deep(.p-dropdown) {
+    padding-left: 9px !important;
+  }
+
+  .wrapper-button {
+    column-gap: 14px;
+  }
+}

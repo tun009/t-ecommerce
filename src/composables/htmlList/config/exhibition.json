@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Exhibition",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Exhibition_Special Exhibition_Detail_General (FO_MC_PL022000/FO_MC_PL023000/FO_MC_PL025001/FO_MC_PL025002/FO_MC_PL026000)",
+        "description": "./exhibition-detail",
+        "link": "/exhibition-detail?exhibitionKey=280",
+        "history": "0417 0419",
+        "visible": true
+      }
+    ]
+  }
+]

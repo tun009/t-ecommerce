@@ -1,0 +1,29 @@
+@import '../commons/_welfare-variables';
+
+.wf-loader {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.wf-loader-sm {
+  width: 24px;
+  height: 24px;
+}
+
+.wf-loader-icon {
+  position: relative;
+  width: 100%;
+  animation: rotation 2s infinite linear;
+  display: block;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}

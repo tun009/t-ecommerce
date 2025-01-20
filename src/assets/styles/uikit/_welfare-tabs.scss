@@ -1,0 +1,202 @@
+@import '../commons/_welfare-variables';
+
+.wf-tab-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.wf-tab-container.wf-tab-container--full .wf-tab {
+  gap: 0;
+}
+
+.wf-tab-container.wf-tab-container--full .wf-tab li {
+  flex: 1;
+}
+
+.wf-tab {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.wf-tab li {
+  list-style-type: none;
+}
+
+.wf-tab .wf-tab-item label {
+  border-bottom: solid 3px transparent;
+  padding: 0 6px 14px 6px;
+  font-size: 15px;
+  line-height: 100%;
+  font-weight: 500;
+  color: $black-1f;
+  letter-spacing: -0.7px;
+  display: inline-block;
+  white-space: nowrap;
+  transition: all 0.25s linear;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+}
+
+.wf-tab .wf-tab-item.light label {
+  color: $white;
+}
+
+.wf-tab .wf-tab-item input[type='radio'] {
+  display: none;
+}
+
+.wf-tab .wf-tab-item input[type='radio']:checked + label {
+  font-weight: 700;
+  border-bottom: solid 3px $black-1f;
+}
+
+.wf-tab.wf-line-white-tab .wf-tab-item label {
+  color: $white;
+}
+
+.wf-tab.wf-line-white-tab .wf-tab-item input[type='radio']:checked + label {
+  border-bottom: solid 3px $white;
+}
+
+.wf-tab .wf-tab-sub-label {
+  position: absolute;
+  bottom: calc(100% + 3px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wf-round-tab {
+  position: relative;
+  gap: 10px;
+}
+
+.wf-round-tab-space-7 {
+  gap: 7px !important;
+}
+
+.wf-round-tab .wf-tab-item label {
+  background-color: $grey-f8;
+  border: solid 1px $grey-e7;
+  padding: 9px 15px;
+  border-radius: 999px;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: -1.36px;
+  font-weight: 400;
+  color: $grey-33;
+}
+
+.wf-round-tab .wf-tab-item input[type='radio']:checked + label {
+  font-weight: 700;
+  letter-spacing: -1.46px;
+  color: $white;
+  background-color: $black-1f;
+  border: solid 1px $black-11;
+}
+
+.wf-tab-container-active-font-600 .wf-round-tab .wf-tab-item input[type='radio']:checked + label {
+  font-weight: 600;
+}
+
+.wf-box-tab,
+.wf-box-small-tab {
+  position: relative;
+  gap: 10px;
+}
+
+.wf-box-tab .wf-tab-item label,
+.wf-box-small-tab .wf-tab-item label {
+  border: solid 1px $grey-e7;
+  padding: 9px 15px;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: -0.4px;
+  font-weight: 400;
+  color: $gray3;
+  background: $white;
+}
+
+.wf-box-small-tab .wf-tab-item label {
+  padding: 9px 20px;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: -0.373px;
+}
+
+.wf-box-tab .wf-tab-item input[type='radio']:checked + label,
+.wf-box-small-tab .wf-tab-item input[type='radio']:checked + label {
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  color: $white;
+  background-color: $black-1f;
+  border: solid 1px $black-1f;
+}
+
+.wf-box-small-tab .wf-tab-item input[type='radio']:checked + label {
+  letter-spacing: -0.733px;
+}
+
+.wf-text-tab {
+  position: relative;
+  gap: 30px 44px;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-top: 1px solid $grey-e7;
+  border-bottom: 1px solid $grey-e7;
+  max-width: 375px;
+}
+
+.wf-text-tab .wf-tab-item {
+  width: 100%;
+  max-width: 81px;
+}
+
+.wf-text-tab .wf-tab-item:nth-child(3) {
+  max-width: inherit;
+  width: auto;
+}
+
+.wf-text-tab .wf-tab-item:nth-child(6) {
+  max-width: inherit;
+  width: auto;
+}
+
+.wf-text-tab .wf-tab-item label {
+  padding: 0;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 400;
+  color: $gray2;
+  display: block;
+  text-align: left;
+  letter-spacing: -1px;
+  border-bottom: none;
+}
+
+.wf-text-tab .wf-tab-item input[type='radio']:checked + label {
+  font-weight: 700;
+  color: $gray1;
+  border: none;
+}
+
+.wf-tab-container.wf-tab-big .wf-tab label {
+  border-bottom: solid 3px transparent;
+  padding: 0 5px 14px 6px;
+  font-size: 17px;
+  line-height: 100%;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+  display: inline-block;
+  white-space: nowrap;
+  transition: all 0.25s linear;
+  cursor: pointer;
+  position: relative;
+  margin-right: -1.5px;
+}
+
+.wf-tab-container.wf-tab-big .wf-tab-item input[type='radio']:checked + label {
+  font-size: 19px;
+}

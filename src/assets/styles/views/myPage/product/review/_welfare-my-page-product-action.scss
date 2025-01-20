@@ -1,0 +1,42 @@
+.prd {
+  &-card {
+    &:first-child {
+      padding-top: 0px;
+    }
+    padding-top: 1rem;
+    &-content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.875rem;
+      border-bottom: 1px solid #e7e7e7;
+      padding-bottom: 1rem;
+      &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 0.6rem;
+      }
+
+      &-content {
+        display: flex;
+        font-size: 13px;
+        color: #555555;
+        gap: 0.875rem;
+      }
+    }
+    &-item-right {
+      &-price {
+        div {
+          display: flex;
+          gap: 0.4rem;
+          margin-top: 0.6rem;
+          & > span {
+            &.rate {
+              color: #ff3b4f;
+            }
+          }
+        }
+      }
+    }
+  }
+}

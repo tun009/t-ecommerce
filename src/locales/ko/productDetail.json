@@ -1,0 +1,106 @@
+{
+  "productDetail": {
+    "selectOption": "옵션을 선택하세요.",
+    "deliveryExchangeReturnRefund": {
+      "title": "배송/교환/반품/환불 안내",
+      "shippingReturnUse": "배송/반품이용",
+      "deliveryInfo": "배송안내",
+      "exchangeReturnInfo": "교환/반품 안내",
+      "reasonExchangeReturnInfo": "반품/교환 불가사유",
+      "exchangeReturnNote": "교환/반품 참고사항"
+    },
+    "pointInfo": {
+      "title": "적립금 안내"
+    },
+    "additionalShippingCostInformation": {
+      "title": "추가 배송비 안내"
+    },
+    "interestFreeInstallmentMonthInfo": {
+      "title": "무이자 할부개월 안내"
+    },
+    "exchangeReturnByCategory": {
+      "title": "카테고리별 교환/반품 참고사항",
+      "clothes": "의류/언더웨어",
+      "cosmetics": "화장품/이미용제품",
+      "stuff": "잡화",
+      "householdGoods": "생활용품/가구",
+      "homeAppliances": "가전제품/디지털가전",
+      "otherNotes": "기타 참고사항"
+    },
+    "productReview": {
+      "rewardTitle": "구매 상품에 대한 상품평을 등록 시 적립금을 드립니다.",
+      "rewardPointOne": "일반/별점 상품평 : 1,000원 지급 ",
+      "rewardPointSecond": "포토 상품평 : 2,000원 지급 ",
+      "rewardPointThird": "동영상 상품평 : 3000원 지급 ",
+      "rewardDes": "※ 상품평 적립금 유효기간 : 지급일로부터 12개월",
+      "newBtn": "상품평 작성하기",
+      "fileTitle": "포토&동영상 리뷰 ",
+      "empty": "작성된 상품평이 없습니다.",
+      "moreFiles": "더보기",
+      "purchaseInformation": "구매정보",
+      "declaration": "신고",
+      "sort": {
+        "popularity": "인기순",
+        "newest": "최신순",
+        "mostRecommended": "추천 높은 순",
+        "leastRecommended": "추천 낮은 순",
+        "lowestRating": "평점 낮은 순",
+        "highestRating": "평점 높은 순"
+      }
+    },
+    "coupon": {
+      "title": "쿠폰",
+      "receivedCompleted": "받기완료",
+      "maximumPurchases": "원 이상 구매시 최대",
+      "krw": "원",
+      "discountPercent": "% 할인",
+      "getCoupon": "전체 쿠폰 받기",
+      "notifyDownloadAll": "개의 쿠폰이 발급되었습니다.",
+      "notifyDownload": "쿠폰이 발급되었습니다.",
+      "notifyValidDate": "쿠폰 유효기간이 종료되었습니다.",
+      "notifyCouponAlreadyBeen": "쿠폰이 이미 발급되었습니다.",
+      "notifyNotCouponCanDownload": "다운로드 받을 수 있는 쿠폰이 없습니다."
+    }
+  },
+  "productInquiry": {
+    "emptyInquiriesMessage": "등록된 문의가 없습니다.",
+    "inquiryItem": {
+      "isSecretMessage": "비밀글 입니다.",
+      "alertSecretMessage": "작성자만 볼 수 있는 비밀글입니다."
+    },
+    "buttonViewMore": "{pageNum}개 더보기",
+    "titleMyQuestion": "나의질문",
+    "titleAnsweredQuestion": "답변된 질문",
+    "buttonInquiry": "상품 문의하기",
+    "formInquiry": {
+      "labelOfTitleQuestion": "제목",
+      "placeholderTitleQuestion": "제목을 입력해주세요.",
+      "labelOfContentQuestion": "내용",
+      "placeholderContentQuestion": "문의하실 내용을 입력해주세요.",
+      "isSecretQuestionLabel": "비밀글",
+      "labelButtonSubmit": "등록"
+    },
+    "validateForm": {
+      "title": "제목을 입력해주세요.",
+      "content": "내용을 입력해주세요.",
+      "titleLength": "제목을 5자 이상 입력해주세요.",
+      "submitSuccess": "상품문의가 등록되었습니다."
+    }
+  },
+  "productDetailReport": {
+    "title": "신고 접수",
+    "textAreaPlaceholder": "신고사유를 입력해 주세요.",
+    "hintReport": "신고내용은 메가존플레이 운영정책에 따라 처리됩니다.",
+    "titleHeaderModal": "신고 접수",
+    "reasonTitleModal": "신고사유",
+    "confirmContentModal": "해당 내용으로 신고하시겠습니까?",
+    "submitSuccessModal": "신고가 접수 되었습니다."
+  },
+  "productDetailListMedia": {
+    "title": "포토/동영상 모아보기"
+  },
+  "productDetailViewDetailReview": {
+    "title": "상품평 상세보기",
+    "labelProductName": "구매정보"
+  }
+}

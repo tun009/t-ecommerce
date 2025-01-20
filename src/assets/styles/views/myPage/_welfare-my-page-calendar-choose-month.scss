@@ -1,0 +1,22 @@
+@import '../../commons/welfare-variables';
+
+.wf-button-calendar-choose-month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: $gray1;
+}
+
+.wf-button-calendar-choose-month:not(.active):disabled {
+  color: $grey-99;
+}
+
+.wf-button-calendar-choose-month.active {
+  background-color: $red-fc;
+  color: $orange;
+}
+
+.wf-button-action-calendar-choose-month {
+  background-color: $gray8;
+}

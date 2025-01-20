@@ -1,0 +1,463 @@
+{
+  "myPage": {
+    "orderInfo": {
+      "orderNumber": "주문번호",
+      "orderAddress": "배송지",
+      "returnedProduct": "반품상품",
+      "titleAddress": "배송지"
+    },
+    "editMemberInfo": {
+      "checkPassword": {
+        "title": "비밀번호 확인",
+        "description": "개인정보를 안전하게 보호하기\n위해 비밀번호를 다시 한 번 확인합니다.",
+        "placeholderPw": "비밀번호는 영문, 숫자, 특수문자 혼합 8~20자",
+        "buttonDone": "확인",
+        "alertDone": "확인",
+        "error1": "비밀번호가 일치하지 않습니다."
+      },
+      "editMemberInfo": {
+        "title": "회원정보 수정",
+        "subTitle1": "이름 (사번)",
+        "subTitle2": "소속",
+        "subTitle3": "직급",
+        "subTitle4": "생년월일",
+        "subTitle5": "아이디 (이메일 주소)",
+        "subTitle6": "비밀번호",
+        "buttonName6": "비밀번호 변경",
+        "subTitle7": "휴대폰 번호",
+        "buttonName7": "변경",
+        "subTitle8": "주소",
+        "buttonName8": "우편번호",
+        "placeholder8-1": "주소를 검색해주세요.",
+        "placeholder8-2": "우편번호 찾기를 이용해주세요.",
+        "placeholder8-3": "상세 주소를 입력하세요.",
+        "subTitle9": "이메일",
+        "desc9": "아이디와 정보수신 메일의 주소를 다르게 설정할 수 있습니다.",
+        "subTitle10": "마케팅 정보 수집 및 이용(수신)동의",
+        "buttonName10": "보기",
+        "checkbox10-1": "마케팅 정보 수집 및 이용(수신)동의 (선택)",
+        "checkbox10-2": "SMS (선택)",
+        "checkbox10-3": "이메일 (선택)",
+        "checkbox10-4": "카카오알림톡 (선택)",
+        "buttonDone": "저장",
+        "errorEmail": "이메일이 유효하지 않습니다.",
+        "errorAddress": "상세주소는 필수 값입니다.",
+        "errorCellphone1": "휴대폰번호가 유효하지 않습니다.",
+        "errorCellphone2": "변경할 휴대폰번호를 입력해주세요.",
+        "agreementY": "동의",
+        "agreementN": "미동의",
+        "alertDone": "확인",
+        "changePasswordModal": {
+          "title": "비밀번호 변경",
+          "subTitle1": "신규 비밀번호 입력",
+          "subTitle2": "신규 비밀번호 확인",
+          "saveAlertDone": "고객정보가 수정되었습니다.",
+          "saveFailAlertDone": "고객정보 수정에 실패하였습니다.",
+          "error1": "비밀번호 형식이 유효하지 않습니다.",
+          "desc": "비밀번호는 영문+숫자+특수문자, 동일 문자나\n숫자 3회 이상 반복되지 않도록 8~20자로 입력해주세요.",
+          "buttonDone": "확인"
+        },
+        "changeAddressModal": {
+          "title": "주소 검색"
+        },
+        "agreementModal": {
+          "title": "마케팅 정보 수집 및 이용(수신) 동의"
+        },
+        "saveAlertDone": "고객정보가 수정되었습니다.",
+        "saveFailAlertDone": "고객정보 수정에 실패하였습니다."
+      }
+    },
+    "nonMemberShoppingInfo": {
+      "orderDeliveryInquiry": {
+        "title": "비회원주문배송조회",
+        "noOrder": "주문 내역이 없습니다.",
+        "buttonChange": "옵션변경",
+        "buttonWithdraw": "주문취소"
+      }
+    },
+    "orderDetail": {
+      "title": "주문상세",
+      "product": "주문상품",
+      "productReturn": "반품상품",
+      "refundPrice": {
+        "title": "환불 정보",
+        "deposit": "예치금",
+        "reserves": "적립금",
+        "welfarePoints": "복지포인트",
+        "payingCreditCard": "카드결제",
+        "expectedRefund": "환불 예정 금액"
+      },
+      "changeOptions": "옵션변경",
+      "withDrawOrder": "주문취소",
+      "exchangeRequest": "교환신청",
+      "returnRequest": "반품신청",
+      "writeProductReivew": "상품평작성",
+      "deliveryStatus": "배송현황",
+      "btnExchangeProduct": "교환상품",
+      "btnRecoveredProduct": "회수상품",
+      "changeDeliveryAddress": "배송지변경"
+    },
+    "eCouponOrderDetail": {
+      "titleProductOrder": "주문상품",
+      "titleInformationDelivery": "수신자 정보",
+      "senderName": "보내는사람"
+    },
+    "inquiryList": {
+      "title": "취소/교환/반품 조회",
+      "noInquiry": "취소/교환/반품 내역이 없습니다.",
+      "buttonLoadMore": "더보기"
+    },
+    "changeOrderDeliveryAddress": {
+      "title": "배송지변경",
+      "titleCustomer": "받으시는 분",
+      "titleReceiver": "받으시는 분",
+      "titleAddress": "주소",
+      "titlePhone": "휴대폰번호",
+      "titleTel": "연락처",
+      "btnCancel": "취소",
+      "btnAccept": "변경",
+      "notificationNoChange": "OOO을/를 입력해주세요.",
+      "notificationChangeSuccess": "요청 내역을 정상적으로 처리했습니다."
+    },
+    "main": {
+      "title": "마이페이지",
+      "couponTitle": "쿠폰",
+      "deliveryTitle": "배송중",
+      "messageTitle": "상품평",
+      "couponCount": "장",
+      "deliveryCount": "건",
+      "stateDelivery": {
+        "reception": "주문접수",
+        "completePayment": "결제완료",
+        "preparingProduct": "상품준비중",
+        "shipping": "배송중",
+        "deliveryCompleted": "배송완료",
+        "orderStatus": "주문 배송 현황"
+      },
+      "linkRedirect": {
+        "orderDeliveryInquiry": "주문/배송조회",
+        "cancellationExchangeReturn": "취소/교환/반품조회",
+        "managementDeliveryAddress": "배송지관리",
+        "managementProductReview": "상품평관리",
+        "likeProduct": "좋아요 상품",
+        "eventAppDetail": "이벤트응모내역",
+        "contact": "1:1 문의하기",
+        "detailInquiry": "문의내역",
+        "askedQuestionFre": "자주 묻는 질문"
+      }
+    },
+    "welfarePoints": {
+      "availablePointReserves": "사용가능적립금",
+      "availablePoints": "사용 가능 포인트",
+      "expiringRewardPointsForThisMonth": "이번달 소멸예정 적립금",
+      "deductionPoints": "차감 포인트",
+      "totalPointsPaid": "총 지급 포인트",
+      "expirationPeriod": "유효기간",
+      "discount": "할인",
+      "won": "원",
+      "num": "개",
+      "wonDiscount": "원 할인",
+      "maximumForPurchasesOverKRW": "원 이상 구매시 최대",
+      "noteDiscountFIX" : "원 이상 구매 시",
+      "noteDiscountPER" : "원 이상 구매 시 최대",
+      "months": "개월",
+      "day": "일",
+      "timeLeft": "시간 남음",
+      "getto": "까지",
+      "viewedNotFound": "조회된 내역이 없습니다.",
+      "couponNotFound": "쿠폰 내역이 없습니다.",
+      "rewardPointsGuide": "적립금 이용안내",
+      "welfarePointsGuide": "복지포인트 이용안내",
+      "couponGuide": "쿠폰 이용안내",
+      "rewardPointsDescription1": "현금과 동일하게 사용 할 수 있는 결제 수단입니다.",
+      "rewardPointsDescription2": "적립금은 예치금과 달리 현금으로 지급해드리지 않습니다.",
+      "rewardPointsDescription3": "상품구매 시 지급받은 적립금은 해당상품을 취소/반품 시 적립금 </br> 지급도 취소 됩니다.",
+      "rewardPointsDescription4": "<span class='wf_line-height-16-9'>적립금은 상품평 등록과 같은 활동이나 다양한 이벤트 참여 등을 </br> 통해 받으실 수 있습니다.</span>",
+      "rewardPointsDescription5": "적립금은 해당 적립금의 성격에 따라 유효기간이 다를 수 있습니다.",
+      "welfarePointsDescription1": "현금과 동일하게 사용 할 수 있는 결제 수단입니다.",
+      "welfarePointsDescription2": "복지포인트는 현금으로 지급해드리지 않습니다.",
+      "couponDescription1": "쿠폰 사용은 주문서 작성 시 결제정보를 입력하는 화면에서 사용 가능한 </br> 쿠폰을 조회하여 사용할 수 있습니다.",
+      "couponDescription2": "쿠폰별로 사용기간이 있으며, 사용기간 만료된 이후에는 사용 할 수 </br> 없습니다.",
+      "couponDescription3": "한번 사용된 할인쿠폰은 재발행 되지 않으므로 상품의 취소나 교환/반품 </br> 시에도 돌려받을 수 없습니다.",
+      "couponDescription4": "할인쿠폰의 할인 금액이 상품의 판매가를 초과할 경우에는 할인쿠폰 </br> 사용이 불가능합니 다.",
+      "couponDescription5": "쿠폰 사용 시 적립금은 구매액 기준이 아니라 할인된 금액의 적립금으로 <br> 적용 됩니다."
+    },
+    "notifications": {
+      "title": "알림함",
+      "instructions1": "최근 7일 동안의 알림수신내역만 표시됩니다.",
+      "instructions2": "지난 수신내역으로 확인 시점에 따라 할인/행사 내용이 변경되었거나, 종료되었을 수 있습니다.",
+      "appNotificationSettingsGuide1": "앱알림 설정이 꺼져있네요!",
+      "appNotificationSettingsGuide2": "중요한 소식을 놓치지 않도록<br/> 앱알림 설정을 <span class='wf-color--red-4f-3b'>ON</span> 해주세요."
+    },
+    "setting": {
+      "title": "설정",
+      "login": "로그인",
+      "logout": "로그아웃",
+      "loginRequest": "로그인해 주세요.",
+      "autoLogin": {
+        "title": "자동로그인",
+        "description": "자동로그인 수락되어 있습니다.<br> 로그아웃 버튼을 누르면 자동로그인이 해제됩니다."
+      },
+      "appAlarm": {
+        "title": "앱알림",
+        "label": "알림 설정",
+        "description1": "켜짐에 체크하신 경우, 영리목적 광고성 정보전송에 동의한 것으로 간주됩니다.",
+        "description2": "본 설정은 해당 기기에서만 유효하며 단말기의 설정>알림>메가존플레이>알림허용에서도 변경가능합니다.",
+        "description3": "주문 SMS 수신동의는 마이페이지>회원정보수정에서 설정가능합니다."
+      },
+      "easyPayment": {
+        "title": "간편결제",
+        "description1": "메가페이 간편결제",
+        "modifyRegistration": "등록/수정"
+      },
+      "appAccessPermissions": {
+        "title": "앱 접근 권한",
+        "description1": "전화, 카메라, 파일 및 미디어 등의 앱 접근 권한을 설정할 수 있습니다."
+      },
+      "versionInformation": {
+        "title": "버전 정보",
+        "description1": "최신버전",
+        "update": "업데이트"
+      },
+      "membershipWithdrawal": {
+        "title": "회원 탈퇴"
+      }
+    },
+    "detailInquiry": {
+      "tab": {
+        "label1": "1:1 문의내역",
+        "label2": "상품문의내역"
+      },
+      "common": {
+        "waitingForResponse": "답변대기",
+        "responseCompleted": "답변완료",
+        "counselingteam": "상담팀",
+        "notFound": "등록된 문의가 없습니다."
+      },
+      "member": {
+        "orderNumber": "주문번호",
+        "productNumber": "상품번호"
+      },
+      "product": {}
+    },
+    "memberDelivery": {
+      "title": "주문배송조회"
+    },
+    "exchangeStatus": {
+      "title": "교환현황",
+      "description": "<p class='wf-font_17--bold wf-color--g-111 wf-mt-12'>상품이 <span class='wf-color--f-95729'>회수지시</span> 되었습니다.</p>",
+      "titleTable": "교환정보"
+    },
+    "refundInformation": {
+      "title": "재 결제정보",
+      "titleShipping": "반품배송비 결제",
+      "titleExchange": "교환배송비 결제",
+      "labelPrice": "결제금액",
+      "labelCheckboxCard": "체크카드 결제",
+      "labelPaymentType": "할부개월",
+      "placeholderCard": "카드를 선택하세요.",
+      "placeholderPaymentType": "할부기간 선택",
+      "cancelButton": "취소",
+      "paymentButton": "결제하기"
+    },
+    "refundStatus": {
+      "title": "반품현황",
+      "titleTable": "반품정보",
+      "description": "<p class='wf-font_17--bold wf-color--g-111 wf-mt-12'><span class='wf-color--f-95729'>반품이 완료</span>되었습니다.</p>"
+    },
+    "reviewTab": {
+      "label1": "상품평 작성하기",
+      "label2": "내가 작성한 상품평",
+      "label3": "나의 상품평"
+    },
+    "reviewForm": {
+      "starTitle": "상품의 별점을 입력해주세요.",
+      "label2": "내가 작성한 상품평",
+      "placeholder": "이 상품의 어떤 점이 좋았나요? (10자 이상)",
+      "mediaText1": "사진등록",
+      "mediaText2": "동영상등록",
+      "mediaDesc1": "JPG,PNG 등록",
+      "mediaDesc2": "MP4, MOV 등록(1개당 최대 300 M)",
+      "modalText": "상품평은 10자 이상 등록하여야 합니다."
+    },
+    "fileUpload": {
+      "notice": "사진은 10MB 이하 JPG, PNG 형식의 파일 최대 5개만 등록 가능합니다. 동영상은 300MB 이하 MP4, MOV 형식의 파일 최대 1개만 등록 가능합니다.",
+      "inquiryNotice": "JPG, PNG, MP4, MOV 파일만 등록이 가능 합니다. (포토: 최대 5M / 동영상 : 최대 300M)",
+      "photoBtn": "포토 등록하기",
+      "videoBtn": "동영상 등록하기",
+      "inquiryTitle": "포토/동영상 등록하기"
+    },
+    "reviewCard": {
+      "orderTitle": "주문번호",
+      "buttonTitle": "상품평작성"
+    },
+    "reviewwModal": {
+      "text1": "등록한 상품평을 삭제하시겠습니까?"
+    },
+    "reviewPolicy": {
+      "description1": "상품평은 배송 완료 후 90일 이내 작성 가능합니다.",
+      "description2": "상품평 작성 후 지급된 적립금은 적립일로 부터 365일 이후 소멸됩니다.",
+      "description3": "개인정보(이름/연락처/주소)가 노출되지 않도록 조심해주세요.",
+      "description4": "특수기호, 동일단어 등을 3회 이상 반복하지 않도록 해주세요."
+    },
+    "notFound": {
+      "title1": "작성 가능한 상품평이 없습니다.",
+      "title2": "내가 작성한 상품평이 없습니다.",
+      "likeTitle": "좋아요한 상품이 없습니다."
+    },
+    "like": {
+      "title": "좋아요 상품"
+    },
+    "recently": {
+      "title": "최근 본 상품",
+      "title2": "최근 본 상품이 없습니다."
+    },
+    "button": {
+      "title": "선택한 상품을 삭제하였습니다.",
+      "title1": "선택한 상품이 없습니다.",
+      "title2": "해당 상품을 삭제하시겠습니까?",
+      "title3": "선택삭제",
+      "title4": "선택한 상품을 장바구니에 저장하시겠습니까?",
+      "title5": "최근 인기 상품 보러가기",
+      "title6": "'선택한 상품을 삭제하였습니다.'"
+    },
+    "inquiryWrite": {
+      "mainTitle": "1:1 문의하기",
+      "title": "문의유형",
+      "title1": "제목",
+      "title2": "내용",
+      "title3": "포토/동영상 등록",
+      "title4": "답변알림 선택",
+      "title5": "수신자",
+      "title6": "배송지",
+      "placeholder": "문의 유형 선택",
+      "placeholder1": "(필수) 제목을 입력해 주세요.",
+      "placeholder2": "(필수) 문의하실 내용을 입력해주세요 답변은 회원정보에 등록된 이메일과 휴대폰으로 안내됩니다.",
+      "button": "주문번호 조회",
+      "button1": "상품코드 조회",
+      "button2": "초기화",
+      "content": "질문 작성시 e-mail과 SMS의 수신 동의를 해주시면, e-mail과 SMS를 통하여 답변과 알림을 받으실 수 있습니다.",
+      "check1": "이메일",
+      "check2": "SMS",
+      "alert": "다른 조건으로 조회하려면 조회값을 초기화 해주세요.",
+      "alert1": "문의유형을 선택해 주세요.",
+      "alert2": "제목을 입력해 주세요.",
+      "alert3": "내용을 입력해 주세요.",
+      "alert4": "1:1 문의가 접수 되었습니다.",
+      "alert5": "주문내역이 없습니다.",
+      "alert6": "조회하신 정보를 초기화합니다. 진행하시겠습니까?",
+      "inquiryType1": "배송",
+      "inquiryType2": "반품/교환/수거",
+      "inquiryType3": "이벤트/프로모션",
+      "inquiryType4": "결제/환불",
+      "inquiryType5": "회원정보",
+      "inquiryType6": "사이트이용",
+      "inquiryType7": "기타",
+      "reset": "등록한 파일을 초기화 시킵니다. 진행하시겠습니까?"
+    },
+    "inquiryProduceCode": {
+      "mainTitle": "상품코드 조회",
+      "content1": "상품코드는 이렇게 찾으세요.",
+      "content2": "모바일에서 찾을경우 : 상품상세 하단",
+      "alert": "조회 결과가 없습니다.",
+      "select": "선택"
+    },
+    "inquiryOrderCode": {
+      "mainTitle": "주문번호 조회",
+      "content": "* 최근 2년간의 주문번호 노출됩니다."
+    },
+    "customer": {
+      "mainTitle": "고객센터",
+      "placeholder": "자주 묻는 질문을 검색해 보세요.",
+      "button1": "1:1 문의하기",
+      "button2": "1:1 문의내역",
+      "button3": "상품문의내역",
+      "button4": "전체보기",
+      "content1": "고객센터 전화 바로 연결 1566-9999 (유료)",
+      "content2": "운영시간 08:00 ~ 22:00 (월-토)/ 일요일, 공휴일 휴무",
+      "title1": "공지사항",
+      "noContent": "자주묻는 질문이 없습니다.",
+      "alert1": "질문을 입력해 주세요.",
+      "searchKeyword1": "복지포인트",
+      "searchKeyword2": "결제수단",
+      "searchKeyword3": "배송",
+      "searchKeyword4": "반품"
+    },
+    "notice": {
+      "mainTitle": "공지사항",
+      "noContent": "공지사항이 없습니다."
+    },
+    "deliveryAddress": {
+      "title": "배송지 관리",
+      "deleteConfirmMessage": "삭제하시겠습니까?",
+      "addTitle": "배송지 추가",
+      "editTitle": "배송지 수정"
+    },
+    "order": {
+      "title": "주문배송조회"
+    },
+    "inquiryExchangeRequest": {
+      "mainTitle": "교환신청",
+      "deliveryFeeTitle": "배송비",
+      "shippingCostCalculationBtnTitle": "배송비 계산",
+      "applicationBtnTitle": "신청",
+      "exchangeShipCostTitle": "교환 배송비",
+      "exchangeAppInfoTitle": "교환신청 안내",
+      "exchangeAppInfoContent1": "교환신청은 동일상품, 동일가격의 옵션만 가능합니다.",
+      "exchangeAppInfoContent2": "반송된 상품상태에 따라 추가비용이 발생될 수 있습니다.",
+      "exchangeReasonPlaceholder": "반품 사유를 입력해 주세요. (선택)",
+      "orderNumberTitle": "주문번호",
+      "reasonForExchangeTitle": "교환사유",
+      "reasonForExchange1": "단순 변심",
+      "reasonForExchange2": "색상/사이즈 옵션 불만족",
+      "reasonForExchange3": "상품불량/파손",
+      "reasonForExchange4": "상품누락배송",
+      "reasonForExchange5": "다른상품배송"
+    },
+    "orderCancel": {
+      "reasonForCancel": "취소사유",
+      "orderShippingCost": "주문 배송비",
+      "cancelShippingCost": "취소 배송비",
+      "expectedCancellationAmount": "취소 예정 금액",
+      "welfarePoint": "복지포인트",
+      "cancellationProductPrice": "취소 상품가",
+      "additionalShippingCost": "추가 배송비",
+      "expectedRefundAmount": "환불 예정 금액",
+      "cancelConfirm": "주문취소시 상품의 상품명, 상품가격, 배송정보를 확인하였으며, 주문취소에 동의하시겠습니까?",
+      "agree": "동의합니다",
+      "orderCancellationInformation": "주문취소 안내",
+      "orderCancellationContentOne": "주문 상품이 출고전인 경우에만 주문취소가 가능합니다.",
+      "orderCancellationContentTwo": "취소 시 구매할 때 사용하신 할인쿠폰은 재사용이 불가 합니다.",
+      "orderCancellationContentThree": "주문 배송비는 주문하신 상품 전체를 취소하실 때 환불됩니다.",
+      "orderCancellationContentFour": "수량 주문취소가 이루어지지 않을 경우 고객센터(1566-1234(유료))로  문의하여 주시기 바랍니다.",
+      "chooseAReasonNotify": "취소사유를 선택해 주세요.",
+      "orderCancelNotAgree": "주문취소에 동의하셔야 주문취소 신청이 가능합니다.",
+      "confirmPut": "주문취소 하시겠습니까?",
+      "putSuccess": "주문취소 신청을 하였습니다.",
+      "notItem": "품목을 선택해 주세요",
+      "totalCancelAmount": "선택된 취소 금액 합계",
+      "orderShippingCostEntireOrder": "주문배송비는 주문전체를 취소할 때 환불됩니다.",
+      "expectedCancellation" : "취소 예정 금액"
+    },
+    "shoppingInformation": {
+      "refund": {
+        "title": "반품내역",
+        "product": "반품상품",
+        "returnQuantity": "반품수량",
+        "returnReason": "반품사유",
+        "collectionLocationInformation": "수거지 정보",
+        "fee": "반품 배송비"
+      },
+      "exchangeHistory": {
+        "title": "교환내역",
+        "product": "교환상품",
+        "exchangeQuantity": "교환수량",
+        "exchangeReason": "교환사유",
+        "exchangeOption": "교환옵션",
+        "collectionLocationInformation": "수거지 정보",
+        "exchangeShippingFee": "교환 배송비",
+        "exchangeApplication": "교환접수"
+      }
+    }
+  }
+}

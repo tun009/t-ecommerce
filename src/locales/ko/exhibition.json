@@ -1,0 +1,11 @@
+{
+  "exhibition": {
+    "bannerGroupInfo": {
+      "period": "기간",
+      "getCoupon": "쿠폰받기",
+      "getCouponSuccess": "쿠폰이 발급 되었습니다.",
+      "getCouponFail": "쿠폰을 다운로드 할 수 없습니다.(소진, 발급기간 종료, 다운로드 회수 초과)",
+      "notificationTitle": "유의사항"
+    }
+  }
+}

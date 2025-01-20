@@ -1,0 +1,61 @@
+@import './welfare-banner-swiper';
+
+.wf-image-carousel-inactive .wf-img-banner-carousel {
+  padding-bottom: 4.5px;
+}
+
+.wf-banner-carousel {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wf-banner-top {
+  width: 100vw;
+  height: calc(100dvh * 0.67 * 0.66);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.wf-banner-carousel :deep(.swiper-wrapper) {
+  align-items: flex-end;
+}
+
+.wf-banner-top :deep(.swiper-slide:not(.swiper-slide-active)) {
+  transform: translateY(40px) !important;
+}
+
+.wf-banner-top :deep(.swiper-slide) {
+  height: 100%;
+}
+
+.wf-banner-carousel .swiper {
+  padding-top: 20px;
+}
+
+.wf-banner-top .swiper {
+  margin-bottom: -16px;
+  height: calc(100dvh * 0.67 * 0.66);
+}
+
+.wf-ml--3 {
+  margin-left: -3px;
+}
+
+.wf-banner-carousel img,
+.wf-banner-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wf-banner-top img {
+  border-radius: 16px 16px 0 0;
+}
+
+.wf-banner-carousel :deep(.swiper-slide-active) {
+  transform: translateY(-20px) !important;
+}

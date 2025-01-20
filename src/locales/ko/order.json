@@ -1,0 +1,123 @@
+{
+    "cardOrder": {
+        "title": "주문서",
+        "titleOrderProduct": "주문상품",
+        "titleDeliveryOrder": "배송정보{index}",
+        "useMultiAddress": "복수 배송지 사용",
+        "nameOrderer": "주문자",
+        "nameOrdererNonMember": "주문자명",
+        "btnDelivery": {
+            "default": "기본배송지",
+            "new": "신규배송지",
+            "list": "배송지목록"
+        },
+        "messageAdressPlaceholder": "배송 메시지를 선택해 주세요",
+        "inputMessagePlaceholder": "직접 입력이 가능합니다.(한글 20자 이내)",
+        "deliveryNotes": {
+            "item1": "배송 메시지는 택배사/택배기사님에게 노출되는 메시지 입니다.",
+            "item2": "<span>도서/제주지역은 상품에 따라<span class='wf-color--red-ff-3-b-4-f'> 추가배송비, 배송불가</span> 안내가 있을 수 있습니다.</span>"
+        },
+        "discount": {
+            "title": "할인정보",
+            "instant": "즉시할인",
+            "lumpSum": "일시불 할인",
+            "coupon": "쿠폰할인"
+        },
+        "savePoint": {
+            "title": "적립금/포인트 사용",
+            "welPoint": "복지포인트",
+            "point": "적립금",
+            "reserve": "예치금"
+        },
+        "paymentMethod": {
+            "title": "결제수단",
+            "usePaymentMethodAgain": "이 결제수단을 다음에도 사용",
+            "megaPay": "Mega pay",
+            "orderPayment": "다른 결제",
+            "btnAddPayment": "추가 등록하기",
+            "bankList": {
+                "creditCard": "신용카드",
+                "mobileCard": "휴대폰결제"
+            }  
+        },
+        "pricePayment": {
+            "title": "결제 금액",
+            "amountProduct": "상품금액",
+            "fee": "배송비",
+            "amountDiscount": "할인금액",
+            "usePoint": "포인트사용",
+            "usePointComplete": "적립금/예치금 사용",
+            "totalPrice": "최종 결제가",
+            "notes": {
+                "item1": "지급예상적립금은 [주문완료페이지]에서 확인이 가능합니다.",
+                "item2": "적용 혜택 및 이벤트에 따라 실제 지급 금액은 달라질 수 있습니다."
+            },
+            "immediatelyDiscountAmount": "즉시할인",
+            "couponDiscountAmount": "쿠폰할인",
+            "welfarePointPaymentAmount": "복지포인트"
+        },
+        "messageAgreement": "위 주문의 상품, 가격, 할인, 배송정보에 동의합니다.",
+        "paymentText": "결제",
+        "typeAddressDelivery": {
+            "home": "회사",
+            "company": "직장",
+            "other": "다른"
+        },
+        "crashReceipt": {
+            "title": "현금영수증 신청"
+        },
+        "noteChooseAdress": "<span>배송지를 1개만 선택하고 싶으실 경우, <span class='wf-color--red-ff-3-b-4-f'>복수배송지 선택을 해제</span>하여 주세요.  </span>",
+        "messageSaveMoney": "<span>예치금은 상품 구매 시 초과 입금된 금액이나 주문 상품을 취소했으나 환불하지 않고 다음주문 시 편하게</br> 사용하시도록 예치금으로 보관된 금액입니다</span>",
+        "fixedTitleMessageSaveMoney": "운영검토 필요",
+        "titledMessageSaveMoney": "예치금 안내",
+        "titleChooseAddress": "복수배송지",
+        "orderCoupon": {
+            "title": "결제수단",
+            "titleCheckBoxSend": "여러명에게 보내기",
+            "nameOutgoingPlaceholder": "이름",
+            "phoneOutgoingPlaceholder": "휴대폰번호 (-없이 숫자만 입력해주세요)",
+            "btnInfoMe": "나에게 보내기",
+            "btnInfoOther": "연락처 불러오기",
+            "titleNameMessage": "보내는분",
+            "titleContentMessage": "메시지",
+            "placeholderContentMessage": "받는 분에게 전달할 메시지를 입력해 주세요."
+        },
+        "orderNotMember": {
+            "title": "본인인증",
+            "titlePolicy": "비회원 약관 동의 및 본인인증",
+            "termUse": "(필수) 이용약관 동의",
+            "allowInfo": "(필수) 비회원 개인정보 수집 및 이용 동의",
+            "btnCertificate": "휴대폰 인증"
+        },
+        "orderInfoOrderer": {
+            "title": "주문자정보",
+            "orderer": "주문자",
+            "infoContact": "주문자 연락처",
+            "email": "주문자 이메일"
+        },
+        "orderCertification": {
+            "title": "휴대폰 인증",
+            "titleVerification": "비회원 휴대폰 본인인증",
+            "name": "이름",
+            "phone": "휴대폰번호",
+            "phonePlaceholder": "-없이 숫자만 입력",
+            "inputSendPlaceholder": "인증번호 입력",
+            "btnReSend": "인증번호 재발송",
+            "btnSend": "인증번호 발송"
+        },
+        "orderAddDelivery": {
+            "titleCount": "배송지 개수"
+        },
+        "noteAgreePolicy": "복지포탈은 회원의 복리후생을 위한 포탈서비스이며, 영리를 목적으로 정보유출, 구매대행, 재판매, 대량 구매 시에는 임의로 출고 중지 및 결제가 취소될 수 있습니다",
+        "crashNote": "현금영수증과 세금계산서 중 하나만 발행이 가능합니다."
+    },
+    "orderCompleted": {
+      "title": "주문완료",
+      "productTitle": "주문상품",
+      "methodTitle": "결제정보",
+      "otherProductTitle": "함께 구매하기 좋은 상품",
+      "buttonBack": "홈으로 이동",
+      "buttonOrder": "주문배송조회"
+
+    }
+}

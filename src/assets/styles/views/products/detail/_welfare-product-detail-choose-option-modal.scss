@@ -1,0 +1,9 @@
+.p-dropdown-item:has(.wf-custom-select) {
+  height: auto !important;
+}
+.wf-option-disabled {
+  cursor: default !important;
+  pointer-events: none;
+  user-select: none;
+  color: #ddd;
+}

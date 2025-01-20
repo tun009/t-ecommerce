@@ -1,0 +1,33 @@
+@import '../../commons/welfare-variables';
+
+:deep(.bg-header::before) {
+  content: '';
+  display: block;
+  position: absolute;
+  inset: 0;
+  background: $black-17-05;
+  backdrop-filter: blur(10px);
+  z-index: 0;
+}
+
+:deep(.wf-banner-1 .swiper-slide-prev) {
+  transform: translateX(61px);
+}
+
+:deep(.wf-banner-1 .swiper-slide-next) {
+  transform: translateX(-61px);
+}
+
+:deep(.wf_banner-image-top) {
+  width: 100%;
+  height: 0;
+  padding-top: 133%;
+  background-image: url('@/assets/images/background-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+:deep(.wf_media_control-right) {
+  right: 26px;
+}

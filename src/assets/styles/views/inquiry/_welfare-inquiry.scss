@@ -1,0 +1,88 @@
+@import '../../commons/welfare-variables';
+
+.inquiry_flex {
+  justify-content: space-between;
+}
+.inquiry_box {
+  width: 100%;
+  padding: 13px 20px;
+  font-size: 15px;
+  border: 1px solid #111111;
+  text-align: center;
+}
+.line-height-21 {
+  line-height: 21px;
+}
+.height-185 {
+  height: 185px;
+}
+.height-7 {
+  height: 7px;
+}
+.wf-background {
+  background: #f5f5f5;
+}
+.wf-space-between {
+  justify-content: space-between;
+}
+.wf-align-center {
+  align-items: center;
+}
+.wf_width-80 {
+  width: 80px;
+}
+.wf_height-80 {
+  height: 80px;
+}
+.color-777 {
+  color: #777777;
+}
+.gap-8 {
+  gap: 8px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.prd-footer button {
+  width: 100%;
+}
+.border-bb-777 {
+  border-bottom: 1px solid $gray7;
+}
+
+.pd-10 {
+  padding: 10px 0;
+}
+.pdr-10 {
+  padding-right: 10px;
+}
+.row-gap-10 {
+  row-gap: 10px;
+}
+
+.wf-red-btn .prd-footer .select-button {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+
+.wf_img {
+  border: 1px solid $gray7;
+  background-color: #f5f5f5;
+  width: 80px;
+  height: 80px;
+}
+
+.wf_img_pd {
+  padding: 30px;
+}
+.wf_img_plus {
+  width: 20px;
+  height: 20px;
+}

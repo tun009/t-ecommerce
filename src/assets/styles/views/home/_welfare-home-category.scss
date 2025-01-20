@@ -1,0 +1,47 @@
+@import '../../commons/welfare-variables';
+.wf-border-radius {
+  border-radius: 16px 16px 0 0;
+}
+.wf-item-category {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 17px;
+  row-gap: 20px;
+  min-height: 166px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.wf-item-category-img-group {
+  width: calc((100vw - 100px) / 5);
+  height: calc((100vw - 100px) / 5);
+  background-color: $grey-f5;
+  border-radius: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wf-item-category-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wf-item-category-img {
+  width: 72.72%;
+  height: 72.72%;
+  position: relative;
+  margin: auto;
+}
+
+.wf-item-name {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 5px;
+}
+.wf-br {
+  width: 100%;
+  height: 7px;
+  background-color: $grey-f5;
+}

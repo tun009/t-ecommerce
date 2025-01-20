@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Search",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Search Product (FO_MC_SE011001/FO_MC_SE011003P/FO_MC_SE011004P/FO_MC_SE011005P/FO_MC_SE022000/FO_MC_SE022001/FO_MC_SE011000)",
+        "description": "./search",
+        "link": "/search",
+        "history": "0217 0318 0401 0402",
+        "visible": true
+      },
+      {
+        "title": "Detailed search (FO_MC_SE033010P/FO_MC_SE033011P/FO_MC_SE033012P/FO_MC_SE033020P/FO_MC_SE033030P/FO_MC_SE033040P/FO_MC_SE033041P/FO_MC_SE033050P/FO_MC_SE033060P/FO_MC_SE033070P/FO_MC_SE033003/FO_MC_SE033000/FO_MC_SE033002)",
+        "description": "./search/result?keyword=1",
+        "link": "/search/result?keyword=1",
+        "history": "0220 0318 0326 0327",
+        "visible": true
+      }
+    ]
+  }
+]

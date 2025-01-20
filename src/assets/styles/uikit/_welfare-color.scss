@@ -1,0 +1,318 @@
+// opacity
+.wf-opacity-10 {
+  opacity: 0.1;
+}
+
+.wf-opacity-20 {
+  opacity: 0.2;
+}
+
+.wf-opacity-40 {
+  opacity: 0.4;
+}
+
+.wf-opacity-50 {
+  opacity: 0.5;
+}
+
+// text color
+.wf-color-primary {
+  color: $primary;
+}
+
+.wf-color--f-95729 {
+  color: $orange-29;
+}
+
+.wf-color--g-555555 {
+  color: $grey-55;
+}
+
+.wf-color--f-95729--i {
+  color: $orange-29 !important;
+}
+
+.wf-color--blue-4075-f-3 {
+  color: $blue;
+}
+
+.wf-color--red-ff-3-b-4-f {
+  color: $red !important;
+}
+
+.wf-color--red-4f-3b {
+  color: $red-4f;
+}
+
+.wf-color--g-111 {
+  color: $gray1;
+}
+
+.wf-color--g-111-important {
+  color: $gray1 !important;
+}
+
+.wf-color--g-333 {
+  color: $gray2;
+}
+
+.wf-color--g-333-important {
+  color: $gray2 !important;
+}
+
+.wf-color--g-555 {
+  color: $gray3;
+}
+
+.wf-color--g-777 {
+  color: $gray4;
+}
+
+.wf-color--g-999 {
+  color: $gray5;
+}
+
+.wf-color--g-bbb {
+  color: $gray6;
+}
+
+.wf-color--g-ddd {
+  color: $gray-ddd;
+}
+
+.wf-color--g-fff {
+  color: $white-ff;
+}
+
+.wf-color--g-33 {
+  color: $grey-33;
+}
+
+.wf-color--g-8e {
+  color: $grey-8e;
+}
+
+.wf-color--g-red-e9 {
+  color: $red-e9;
+}
+
+.wf-color--000 {
+  color: $black-00;
+}
+
+.wf-color--mb-1-f-1-f-1-f {
+  color: $black-1f;
+}
+
+.wf-color_i--f-95729 {
+  color: $orange-29 !important;
+}
+
+.wf-color_blue {
+  color: $blue;
+}
+
+.wf-color-grey-77 {
+  color: $grey-77;
+}
+
+.wf-color-grey-55 {
+  color: $grey-55;
+}
+
+// background color
+.wf-bg-primary {
+  background-color: $primary;
+}
+
+.wf-bg-black-05 {
+  background-color: $black-05;
+}
+
+.wf-bg-black-06 {
+  background-color: $black-06;
+}
+
+.wf-bg-black-03 {
+  background-color: $black-03;
+}
+
+.wf-bg--f-95729 {
+  background-color: $orange-29;
+}
+
+.wf-bg--blue-4075-f-3 {
+  background-color: $blue;
+}
+
+.wf-bg--red-ff-3-b-4-f {
+  background-color: $red;
+}
+
+.wf-bg--red-ff-3-b-4-f--i {
+  background-color: $red !important;
+}
+
+.wf-bg--g-111 {
+  background-color: $gray1;
+}
+
+.wf-bg--g-111-important {
+  background: $gray1 !important;
+}
+
+.wf-bg--g-111-02 {
+  background-color: $black-11-02;
+}
+
+.wf-bg--g-333 {
+  background-color: $gray2;
+}
+
+.wf-bg--g-555 {
+  background-color: $gray3;
+}
+
+.wf-bg--g-777 {
+  background-color: $gray4;
+}
+
+.wf-bg--g-999 {
+  background-color: $gray5;
+}
+
+.wf-bg--g-bbb {
+  background-color: $gray6;
+}
+
+.wf-bg--g-ddd {
+  background-color: $gray-ddd;
+}
+
+.wf-bg--g-fff {
+  background-color: $white-ff;
+}
+
+.wf-bg--g-FFF-important {
+  background-color: $white-FF !important;
+}
+.wf-bg--g-2-e-7-e-7 {
+  background-color: $gray7;
+}
+
+.wf-bg--g-f-5-f-5-f {
+  background-color: $gray8;
+}
+
+.wf-bg--g-f-8-f-8 {
+  background-color: $grey-f8;
+}
+
+.wf-bg--g-f-5-f-6-fa {
+  background-color: $grey-f6;
+}
+
+.wf-bg--g-f-0-f-0 {
+  background-color: $gray-f0;
+}
+
+.wf-bg--g-f-3-f-3 {
+  background-color: $grey-f3;
+}
+
+.wf-bg--g-d-2-e-0-f {
+  background-color: $blue-d2;
+}
+
+.wf-bg--g-f-c-d-c-d-f {
+  background-color: $red-fc;
+}
+
+.wf-bg--g-gray-ee {
+  background-color: $gray-eee;
+}
+
+.wf-bg--g-f6 {
+  background-color: $grey-f6;
+}
+
+.wf-bg--white {
+  background-color: $white;
+}
+
+.wf-bg--4747 {
+  background-color: $gray-47;
+}
+
+.wf-bg--e8 {
+  background-color: $orange-e8;
+}
+
+.wf-bg--000 {
+  background-color: $black-00;
+}
+
+.wf-bg--image-F8FAF9 {
+  background-color: $bg-image-F8FAF9;
+}
+
+.wf-bg-video-pause {
+  background-image: linear-gradient(0deg, $black-17-05 0%, $black-17-05 100%);
+}
+
+// border color
+.wf-br--g-bbb {
+  border-color: $gray6;
+}
+
+.wf-br--g-111 {
+  border-color: $gray1 !important;
+}
+
+.wf-br--g-primary {
+  border-color: $primary !important;
+}
+
+.wf-br--g-e-7 {
+  border-color: $grey-e7 !important;
+}
+
+.wf-br--g-e-6 {
+  border-color: $grey-e6 !important;
+}
+
+.wf-br--g-ee {
+  border-color: $gray-eee !important;
+}
+
+.wf-br--111 {
+  border-color: $gray1 !important;
+}
+
+.wf-br--white {
+  border-color: $white !important;
+}
+
+.wf-br--f0 {
+  border-color: $gray-f0 !important;
+}
+
+.wf-br--red-ff-3-b-4-f {
+  border-color: $red !important;
+}
+
+.wf-br--gray-E3 {
+  border-color: $gray-E3;
+}
+
+.wf-bg--3-f-5-f-6-fa {
+  background-color: $grey-f6;
+}
+
+.wf-bg--orange-05 {
+  background-color: $orange-05;
+}
+
+.wf-color--g-5999 {
+  color: $grey-99;
+}

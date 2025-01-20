@@ -1,0 +1,41 @@
+.prd {
+  &-item {
+    display: flex;
+    font-size: 13px;
+    color: #555555;
+    gap: 0.875rem;
+    &-left {
+      img {
+        object-fit: cover;
+        width: 4.5rem;
+        height: 4.5rem;
+      }
+    }
+    &-right {
+      width: 100%;
+      &-default {
+        li {
+          margin: 0.25rem 0;
+          &:nth-child(1) {
+            margin-top: 0;
+          }
+
+          div {
+            display: flex;
+            gap: 10px;
+            span {
+              min-width: 45px;
+              margin-top: 0;
+              overflow: hidden;
+              word-break: break-word;
+
+              display: -webkit-box;
+              -webkit-line-clamp: 2; // 원하는 라인수
+              -webkit-box-orient: vertical;
+            }
+          }
+        }
+      }
+    }
+  }
+}

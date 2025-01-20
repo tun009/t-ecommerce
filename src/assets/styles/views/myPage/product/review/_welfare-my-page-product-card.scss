@@ -1,0 +1,29 @@
+.prd {
+  &-card {
+    &:first-child {
+      padding-top: 0px;
+    }
+    padding-top: 1.25rem;
+  }
+  &-box {
+    border: 1px solid #e7e7e7;
+  }
+  &-number {
+    height: 40px;
+    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+
+    span {
+      color: #333333;
+      padding-left: 1rem;
+      font-weight: 400;
+    }
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+}

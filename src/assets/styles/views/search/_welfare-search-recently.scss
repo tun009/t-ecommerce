@@ -1,0 +1,27 @@
+@import '../../commons/_welfare-variables.scss';
+
+.wf-search-recently-feature {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 16px);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px 0 $black-1A;
+    z-index: 10;
+    background-color: $white;
+    border: 1px solid $gray7;
+}
+
+.wf-search-recently-feature--item {
+  padding: 10px 16px;
+  border-top-width: 1px;
+  border-color: $gray7;
+}
+
+.wf-search-recently-feature--item:first-child {
+  border-top-width: 0;
+}
+
+.wf-search-recently-feature--item.wf-active {
+  background-color: $grey-f8;
+}

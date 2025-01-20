@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Coupon",
+      "visible": true,
+      "contents": [
+        {
+          "title": "List Coupon (FO_MC_CP010001P/FO_MC_IT011016P/FO_MC_IT011017P)",
+          "description": "./product-detail?productKey=1",
+          "link": "/product-detail?productKey=117",
+          "history": "0402 0409",
+          "visible": true
+        }
+      ]
+    }
+  ]
+  

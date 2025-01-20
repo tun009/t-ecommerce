@@ -1,0 +1,49 @@
+@import './welfare-variables';
+:deep(.wf-html-content) {
+  display: flex;
+}
+
+.wf-tr-match-parent {
+  width: 100%;
+}
+.wf-table-container {
+  width: 100%;
+  margin-top: 16px;
+  border-spacing: 0;
+}
+.wf-space-top-16 {
+  margin-top: 16px;
+}
+.wf-td-id {
+  width: 2%;
+  height: 28px;
+  background-color: $gray-a8;
+  padding-left: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wf-td-description {
+  width: 30%;
+  background-color: $gray-f0;
+  flex: 2;
+  min-width: 960px;
+  max-width: 960px;
+}
+
+.wf-td-link {
+  width: 83%;
+  background-color: $white-ff;
+  flex: 3;
+  flex-direction: row;
+  display: flex;
+}
+
+.wf-td-space {
+  padding: 0 12px;
+}
+
+.wf-td-link__history {
+  color: $fb8969;
+  margin-left: 24px;
+}

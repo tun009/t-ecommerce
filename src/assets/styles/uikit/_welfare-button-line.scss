@@ -1,0 +1,140 @@
+@import '../commons/welfare-variables';
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -1px;
+  min-width: max-content;
+}
+
+/* line-btn-41 */
+.line-btn-41 {
+  padding: 13px 20px;
+  font-size: $font-15;
+  line-height: 100%;
+  height: 41px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+/* style for tap-4 normal state */
+.line-btn-41.normal,
+.line-btn-41.line {
+  color: $gray2;
+  border: 1px solid $grey-e7;
+  background: $white-ff;
+}
+
+.line-btn-41.normal {
+  border-color: $gray1;
+}
+
+.line-btn-41.line {
+  color: $gray3;
+}
+
+/* style for tap-4 selected state */
+.line-btn-41.selected:not(:disabled),
+.line-btn-41:hover:not(:disabled) {
+  color: $white-ff;
+  border: 1px solid $gray1;
+  background-color: $gray1;
+}
+
+.line-btn-41.point:not(:disabled) {
+  color: $red;
+  border: 1px solid $red;
+  background: $white-ff;
+}
+
+.line-btn-41.point.selected:not(:disabled),
+.line-btn-41.point:hover:not(:disabled) {
+  color: $white-ff;
+  border: 1px solid $red;
+  background: $red;
+}
+
+.line-btn-41.line.selected:not(:disabled),
+.line-btn-41.line:hover:not(:disabled),
+.line-btn-51.black-line {
+  color: $gray1;
+  border: 1px solid $gray1;
+  background: $white-ff;
+}
+
+/* line-btn-31 */
+.line-btn-31 {
+  padding: 8px 10px;
+  font-size: $font-13;
+  line-height: 100%;
+  height: 31px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+/* style for tap-4 normal state */
+.line-btn-31.normal {
+  color: $grey-55;
+  border: 1px solid $gray7;
+  background: $white-ff;
+}
+
+/* style for tap-4 selected state */
+.line-btn-31.selected:not(:disabled),
+.line-btn-31:hover:not(:disabled) {
+  color: $gray1;
+  border: 1px solid $gray1;
+  font-weight: 600;
+}
+
+/* line-btn-50 */
+.line-btn-51 {
+  padding: 8px 6px;
+  font-size: 15px;
+  line-height: 100%;
+  height: 51px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  min-width: 120px;
+}
+
+.line-btn-51.grey-line {
+  color: $grey-77;
+  border: 1px solid $grey-e7;
+  background: $white-ff;
+}
+
+.line-btn-51.grey-line.selected:not(:disabled),
+.line-btn-51.grey-line:hover:not(:disabled),
+.line-btn-51.black-line.selected:not(:disabled),
+.line-btn-51.black-line:hover:not(:disabled) {
+  color: $white-ff;
+  border: 1px solid $gray1;
+  background: $gray1;
+}
+
+.line-btn-51.normal:not(:disabled) {
+  color: $white-ff;
+  border: 1px solid $primary;
+  background: $gray1;
+}
+
+.line-btn-51.selected:not(:disabled),
+.line-btn-51:hover:not(:disabled) {
+  color: $white-ff;
+  border: 1px solid $grey-55;
+  background: $grey-55;
+}
+
+.btn:disabled {
+  color: $gray-03;
+  border: 1px solid $gray-ddd;
+  background-color: $gray-ddd;
+}
+
+.btn.line-btn:not(.line-btn-51):disabled {
+  color: $gray-03;
+  border: 1px solid $gray6 !important;
+  background-color: $gray-ddd;
+}

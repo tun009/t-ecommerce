@@ -1,0 +1,38 @@
+{
+  "categoryMenu": {
+    "welcome": " 님",
+    "centerService": "고객센터",
+    "logout": "로그아웃",
+    "linkPrice": "오늘의특가",
+    "linkRank": "랭킹(베스트)",
+    "linkNotify": "공지사항",
+    "point": "복지포인트",
+    "delivery": "배송중",
+    "category": "카테고리"
+  },
+  "homeBannerBottom": {
+    "btnClose": "닫기",
+    "btnStopWatch": "오늘 그만 보기",
+    "btnStopWatchForWeek": "일주일 그만 보기",
+    "btnNoLook": "다시보지않기"
+  },
+  "productSpecialPrice": {
+    "title": "오늘 세일",
+    "seeMore": "더 보기",
+    "fastDelivery": "빠른 배송! 오늘 주문하면 내일도착",
+    "relatedProduct": "내가 본 상품의 연관 상품",
+    "newProduct": "PREMIUM BEAUTY",
+    "hottestProduct": "지금 가장 핫한 상품",
+    "detailProduct": "일이삼사오육칠팔구십일이삼사오육칠팔구십일"
+  },
+  "homeTerm": {
+    "termOfUse": {
+      "title": "이용약관",
+      "titlePage": "메가존 플레이 이용약관"
+    },
+    "privacyPolicy": {
+      "title": "개인정보 처리방침",
+      "titlePage": "메가존 플레이 개인정보 처리방침"
+    }
+  }
+}

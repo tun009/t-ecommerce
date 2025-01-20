@@ -1,0 +1,34 @@
+.wf-button-product-code-tab {
+  position: absolute;
+  bottom: 26px;
+  left: 0;
+  z-index: 1;
+}
+
+.wf-button-blur {
+  position: relative;
+}
+
+.wf-button-blur::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  opacity: 0.7;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+
+.wf-image-preview {
+  max-height: 900px;
+  overflow: hidden !important;
+}
+
+.wf-image-auto-height {
+  padding-bottom: 100px;
+  max-height: unset;
+}
+.wf_product-btn-show-more {
+  width: 81%;
+}

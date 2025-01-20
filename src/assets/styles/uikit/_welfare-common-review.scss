@@ -1,0 +1,110 @@
+@import '../commons/welfare-variables';
+.wf-cl-border {
+  padding-bottom: 30px;
+  border-bottom-width: 1px;
+}
+
+.wf-cl-box {
+  width: 105px;
+  height: 105px;
+  border: 1px solid $grey-e7;
+}
+
+/* customer details */
+.customer-service-cont {
+  margin-top: 60px;
+}
+.customer-nav {
+  background-color: $grey-bb;
+  padding: 13px 0 12px 0;
+}
+.customer-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.customer-nav ul li {
+  font-size: 15px;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: var(--white);
+  border-right: solid 1px $white-ff;
+}
+.customer-nav ul li:last-child {
+  border-right: 0;
+}
+.customer-nav ul li a {
+  padding: 0 38px;
+}
+.customer-service-cont .description-cont {
+  background-color: $gray-f0;
+  padding: 30px 16px;
+}
+.customer-service-cont .description-cont p {
+  font-size: 13px;
+  line-height: 120%;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: $gray4;
+  margin-bottom: 30px;
+}
+.customer-bottom-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+.customer-bottom-nav ul li {
+  font-size: 13px;
+  line-height: 100%;
+  font-weight: 400;
+  color: $gray4;
+}
+.customer-service-cont .description-cont p.copyright {
+  font-size: 11px;
+  line-height: 100%;
+  font-weight: 500;
+  color: $gray3;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.mz-card-container.card-wrap {
+  padding: 20px 15px 0 15px;
+}
+
+@media only screen and (max-width: 375px) {
+  .customer-nav ul li a {
+    padding: 0 29px;
+  }
+
+  .customer-bottom-nav ul {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .mz-bottom-navbar ul {
+    gap: 9px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header-content {
+    gap: 10px;
+  }
+  .search-field input {
+    padding: 0 25px 7px 5px;
+  }
+
+  .search-field input::placeholder {
+    font-size: 13px;
+  }
+  .customer-nav ul li a {
+    padding: 0 21px;
+  }
+  .customer-bottom-nav ul {
+    gap: 8px;
+  }
+}

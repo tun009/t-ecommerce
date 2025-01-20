@@ -1,0 +1,106 @@
+{
+  "productDetail": {
+    "selectOption": "Please select an option.",
+    "deliveryExchangeReturnRefund": {
+      "title": "Delivery/Exchange/Return/Refund Information",
+      "shippingReturnUse": "Shipping/Return Use",
+      "deliveryInfo": "Delivery information",
+      "exchangeReturnInfo": "Exchange/Return Information",
+      "reasonExchangeReturnInfo": "Reason for return/exchange",
+      "exchangeReturnNote": "Exchange/Return Note"
+    },
+    "pointInfo": {
+      "title": "Point information"
+    },
+    "additionalShippingCostInformation": {
+      "title": "Additional shipping fee information"
+    },
+    "interestFreeInstallmentMonthInfo": {
+      "title": "Information on interest-free installment months"
+    },
+    "exchangeReturnByCategory": {
+      "title": "Exchange/return notes by category",
+      "clothes": "clothing/underwear",
+      "cosmetics": "Cosmetics/beauty products",
+      "stuff": "miscellaneous goods",
+      "householdGoods": "Household Goods/Furniture",
+      "homeAppliances": "Home appliances/digital appliances",
+      "otherNotes": "Other notes"
+    },
+    "productReview": {
+      "rewardTitle": "You will receive points when you post a review of a purchased product.",
+      "rewardPointOne": "General/star product review: 1,000 won paid",
+      "rewardPointSecond": "Photo product review: 2,000 won paid",
+      "rewardPointThird": "Video product review: 3,000 won paid",
+      "rewardDes": "※ Product review points validity period: 12 months from payment date",
+      "newBtn": "Write a product review",
+      "fileTitle": "Photo & video review ",
+      "empty": "There are no product reviews written.",
+      "moreFiles": "see more",
+      "purchaseInformation": "Purchase information",
+      "declaration": "Declaration",
+      "sort": {
+        "popularity": "Popularity",
+        "latest": "Latest",
+        "mostRecommended": "Most Recommended",
+        "leastRecommended": "Least Recommended",
+        "lowestRating": "Lowest Rating",
+        "highestRating": "Highest Rating"
+      }
+    },
+    "coupon": {
+      "title": "Coupon",
+      "receivedCompleted": "Received completed",
+      "maximumPurchases": "Maximum for purchases over KRW",
+      "krw": "krw",
+      "discountPercent": "% discount",
+      "getCoupon": "Get all coupon",
+      "notifyDownloadAll": "Coupons have been issued.",
+      "notifyDownload": "A coupon has been issued.",
+      "notifyValidDate": "The coupon validity period has expired.",
+      "notifyCouponAlreadyBeen": "The coupon has already been issued.",
+      "notifyNotCouponCanDownload": "There are no coupons available for download."
+    }
+  },
+  "productInquiry": {
+    "emptyInquiriesMessage": "There are no registered inquiries.",
+    "inquiryItem": {
+      "isSecretMessage": "This is a secret.",
+      "alertSecretMessage": "This is a secret post that only the author can see."
+    },
+    "buttonViewMore": "See {pageNum} more",
+    "titleMyQuestion": "My Question",
+    "titleAnsweredQuestion": "Answered Questions",
+    "buttonInquiry": "Product inquiry",
+    "formInquiry": {
+      "labelOfTitleQuestion": "Title",
+      "placeholderTitleQuestion": "Please enter the subject.",
+      "labelOfContentQuestion": "Detail",
+      "placeholderContentQuestion": "Please enter your inquiry.",
+      "isSecretQuestionLabel": "Secret message",
+      "labelButtonSubmit": "Send"
+    },
+    "validateForm": {
+      "title": "Please enter the subject.",
+      "content": "Please enter your inquiry.",
+      "titleLength": "Please enter a title of at least 5 characters.",
+      "submitSuccess": "Product inquiry has been registered."
+    }
+  },
+  "productDetailReport": {
+    "title": "Report received",
+    "textAreaPlaceholder": "Please enter the reason for the report.",
+    "hintReport": "Reports will be processed in accordance with Megazone Play's operating policy.",
+    "titleHeaderModal": "Report received",
+    "reasonTitleModal": "Reason for report",
+    "confirmContentModal": "Do you want to report this content?",
+    "submitSuccessModal": "Your report has been received."
+  },
+  "productDetailListMedia": {
+    "title": "View photo/video collection"
+  },
+  "productDetailViewDetailReview": {
+    "title": "View detailed product review",
+    "labelProductName": "Purchase information"
+  }
+}

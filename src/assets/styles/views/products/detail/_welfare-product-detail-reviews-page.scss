@@ -1,0 +1,48 @@
+@import '../../../commons/_welfare-variables';
+
+$height-header: 61px;
+
+:deep(.wf-tab-container.wf-tab-container--label-111 .wf-tab .wf-tab-item label) {
+  color: $gray3;
+  letter-spacing: -1px;
+}
+
+:deep(.wf-tab-container.wf-tab-container--label-111 .wf-tab .wf-tab-item input[type='radio']:checked + label) {
+  color: $black-11;
+  border-bottom: solid 3px $black-11;
+}
+
+:deep(.wf-product-reviews-tab .wf-tab .wf-tab-item label) {
+  padding-bottom: 12px;
+}
+
+.wf-item-product-tabs {
+  top: $height-header;
+}
+
+:deep(.wf-item-product-contents:has(.wf-tab-code)) {
+  /**
+    $height-header is height of header bar
+    52px is height of tabs
+    20px is padding parent
+  */
+  scroll-margin-top: calc($height-header + 52px + 20px);
+}
+
+:deep(.wf-item-product-contents:has(.wf-tab-review)),
+:deep(#welfare-info-product-tab) {
+  /**
+    $height-header is height of header bar
+    52px is height of tabs
+    20px is padding parent
+  */
+  scroll-margin-top: calc($height-header + 52px);
+}
+
+.wf-product-info-tab-content-hidden {
+  display: none;
+}
+
+.wf-product-info-tab-content-show {
+  display: block;
+}

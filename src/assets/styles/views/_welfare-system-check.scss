@@ -1,0 +1,46 @@
+@import '../commons/welfare-variables';
+.wf-error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 48px;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-top: 124px;
+  .wf-error-main-content {
+    .wf-error-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .wf-error-desc {
+      padding: 0 15px;
+    }
+  }
+  :deep(.custom-button) {
+    width: 140px;
+  }
+  .wf-sysCheck-group-row {
+    border-top: 1px solid $grey-bb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-title {
+      background: $grey-f5;
+      width: 72px;
+      height: 41px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &-content {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding-left: 13px;
+    }
+  }
+  .wf-sysCheck-group-row--end {
+    border-top: 1px solid $gray7;
+  }
+}

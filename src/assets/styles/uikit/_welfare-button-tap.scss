@@ -1,0 +1,118 @@
+@import '../commons/welfare-variables';
+
+.btn-tap-1 {
+  padding: 10px 20px;
+  font-size: 13px;
+  line-height: 100%;
+  height: 33px;
+  font-weight: 400;
+}
+
+.btn-tap-1.normal:not(:disabled) {
+  color: $grey-55;
+  border: 1px solid $gray7;
+  background-color: $white-ff;
+}
+
+.btn-tap-1.selected:not(:disabled),
+.btn-tap-1:hover:not(:disabled) {
+  color: $white-ff;
+  border: 1px solid $primary;
+  background-color: $primary;
+  font-weight: 700;
+}
+
+.btn-tap-2 {
+  padding: 0 20px;
+  font-size: 15px;
+  line-height: 100%;
+  height: 35px;
+  border-radius: 40px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+.btn-tap-2.normal:not(:disabled) {
+  color: $grey-33;
+  border: 1px solid $grey-e7;
+  background-color: $white-ff;
+}
+
+.btn-tap-2.selected:not(:disabled),
+.btn-tap-2:hover:not(:disabled) {
+  color: $gray1;
+  border: 1px solid $gray1;
+  background-color: $white-ff;
+  font-weight: 600;
+}
+
+.btn-tap-3 {
+  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 100%;
+  height: 35px;
+  border-radius: 40px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+.btn-tap-3.normal:not(:disabled) {
+  color: $grey-33;
+  border: 1px solid $gray7;
+  background: $grey-f8;
+}
+
+.btn-tap-3.selected:not(:disabled),
+.btn-tap-3:hover:not(:disabled) {
+  color: $white-ff;
+  border: 1px solid $gray1;
+  background-color: $gray1;
+  font-weight: 700;
+}
+
+.btn-tap-4 {
+  padding: 10px 15px 10px 20px;
+  font-size: $font-15;
+  line-height: 100%;
+  height: 35px;
+  border-radius: 999px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  display: flex;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+/* style for tap-4 normal state */
+.btn-tap-4.normal:not(:disabled) {
+  color: $grey-33;
+  border: 1px solid $gray7;
+  background: $white-ff;
+}
+
+/* style for tap-4 selected state */
+.btn-tap-4.selected:not(:disabled),
+.btn-tap-4:hover:not(:disabled) {
+  color: $gray1;
+  border: 1px solid $gray1;
+  background-color: $white-ff;
+  font-weight: 600;
+}
+
+.btn.btn-tap-4.normal .icon {
+  background-image: url('@/assets/icons/btn-tap4-arrow-down-disable.svg');
+}
+
+.btn.btn-tap-4.selected .icon,
+.btn.btn-tap-4:hover .icon {
+  background-image: url('@/assets/icons/btn-tap4-arrow-down.svg');
+}
+
+.btn.btn-tap-4:disabled {
+  color: $gray2;
+}
+
+.btn-sz-14 {
+  width: 14px;
+  height: 8px;
+}

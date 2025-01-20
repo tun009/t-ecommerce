@@ -1,0 +1,14 @@
+@import '../commons/welfare-variables';
+
+.btn-heart.sm {
+  width: 50px;
+  height: 50px;
+  border: 1px solid $grey-e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-heart.sm:disabled {
+  background-color: $grey-dd;
+}

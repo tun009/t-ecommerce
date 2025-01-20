@@ -1,0 +1,15 @@
+@import '../../commons/welfare-variables';
+
+.wf-border-button-reload {
+  border: 1px solid $grey-e7;
+  background-color: $white-ff;
+}
+
+:deep(.btn-tag.selected) {
+  border: 1px solid $grey-e7 !important;
+  color: $grey-33 !important;
+}
+
+:deep(.line-btn-51.normal) {
+  background-color: $black-1f !important;
+}

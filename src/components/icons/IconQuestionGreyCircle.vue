@@ -1,0 +1,22 @@
+<script setup lang="ts">
+import { defaultColor } from '@/commons'
+import { IconPropsType } from '@/models/icons/IconPropsType'
+import { defineProps } from 'vue'
+withDefaults(defineProps<IconPropsType>(), {
+  width: 13,
+  height: 13,
+  color: defaultColor.gray_bb
+})
+</script>
+<template>
+  <svg :width="width" :height="height" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="6.5" cy="6.5" r="6" fill="white" :stroke="color" />
+    <path
+      d="M5 5.00293C5 4.70626 5.08797 4.41625 5.2528 4.16957C5.41762 3.9229 5.65189 3.73064 5.92597 3.61711C6.20006 3.50358 6.50166 3.47387 6.79264 3.53175C7.08361 3.58963 7.35088 3.73249 7.56066 3.94227C7.77044 4.15205 7.9133 4.41932 7.97118 4.71029C8.02906 5.00127 7.99935 5.30287 7.88582 5.57696C7.77229 5.85104 7.58003 6.08531 7.33336 6.25013C7.08668 6.41496 6.79667 6.50293 6.5 6.50293V7.29874"
+      :stroke="color"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx="6.5" cy="8.85669" r="0.640625" :fill="color" />
+  </svg>
+</template>

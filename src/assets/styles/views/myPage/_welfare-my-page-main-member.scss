@@ -1,0 +1,47 @@
+@import '../../commons/welfare-variables';
+
+.wf_button-action {
+  width: 47px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid $grey-e7;
+
+  position: relative;
+}
+
+.wf_button-action.ticket::after {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  content: attr(data-count);
+  color: $white-ff;
+  background-color: $orange;
+  padding: 2px 4px;
+  border-radius: 50%;
+
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 10px */
+  letter-spacing: -1px;
+}
+
+.wf_myPage-hover-link:hover {
+  background-color: $grey-f5;
+}
+
+:deep(.wf-sticky-top) {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:deep(.wf-title-group-icon-right) {
+  column-gap: 20px !important;
+}

@@ -1,0 +1,33 @@
+.prd-like {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+
+    &-left {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    &-right {
+      color: #555555;
+    }
+  }
+  &-card {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  &-cart {
+    &-icon {
+      position: absolute;
+      right: 0px;
+      transform: translate(-76px, 3px);
+    }
+    &-button {
+      float: right;
+      padding-left: 30px !important;
+      padding-right: 15px !important;
+    }
+  }
+}

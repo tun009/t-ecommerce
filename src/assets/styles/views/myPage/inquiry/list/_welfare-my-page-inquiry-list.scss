@@ -1,0 +1,11 @@
+.accordian {
+  // &-arrow {
+  //   transform: rotate(180deg);
+  // }
+
+  &-discription {
+    div:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "message": {
+        "ChooseStateAddressDelivery": "지금까지 작성하셨던 주문/배송지가 초기화 됩니다. 진행하시겠습니까?",
+        "changeBankPayment": "카드결제 외 다른 결제수단으로 변경 시 000,000원 할인이 취소됩니다. 진행하시겠습니까?",
+        "enterYourAddress": "배송지 주소를 입력해주세요.",
+        "enterYourEmail": "당신의 이메일 주소를 입력하십시오.",
+        "enterNameAndAdress": "배송정보를 입력해주세요",
+        "enterPhone": "전화번호를 입력해주세요.",
+        "enterNameAddress": "주문하시는 분의 성함을 입력해주세요.",
+        "numberCodeSended": "입력하신 번호로 인증번호가 발송되었습니다.",
+        "emptyDate": "조회 시작일 또는 종료일을 입력해 주세요.",
+        "fromDateGreaterThanToDate": "조회시작일을 종료일보다 미래 날짜로 입력하셨어요."
+    }
+}

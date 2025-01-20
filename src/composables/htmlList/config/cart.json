@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Cart",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Cart Products (FO_MC_CT011000/FO_MC_CT011001P/FO_MC_CT011002P/FO_MC_CT011004P/FO_MC_CT011005P/FO_MC_CT012000)",
+        "description": "./cart",
+        "link": "/cart",
+        "history": "0321",
+        "visible": true
+      }
+    ]
+  }
+]

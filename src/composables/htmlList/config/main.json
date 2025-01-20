@@ -1,0 +1,78 @@
+[
+  {
+    "title": "MAIN",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Select company (FO_MC_MA010100)",
+        "description": "./login/search-company",
+        "link": "/login/search-company",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Home (FO_MC_MA011000/FO_MC_MA031000/FO_MC_MA041000)",
+        "description": "./home",
+        "link": "/",
+        "history": "0104",
+        "visible": true
+      },
+      {
+        "title": "Main term of use (FO_MC_MA011300)",
+        "description": "./main/term-of-use",
+        "link": "/main/term-of-use",
+        "history": "0329",
+        "visible": true
+      },
+      {
+        "title": "Main privacy policy (FO_MC_MA011400)",
+        "description": "./main/privacy-policy",
+        "link": "/main/privacy-policy",
+        "history": "0329",
+        "visible": true
+      },
+      {
+        "title": "Main not found (FO_MC_MA011500)",
+        "description": "./not-found",
+        "link": "/not-found",
+        "history": "0329",
+        "visible": true
+      },
+      {
+        "title": "Main Bottom Banner Popup (FO_MC_MA011200)",
+        "description": "./main-bottom-banner-popup",
+        "link": "/",
+        "history": "0405",
+        "visible": true
+      },
+      {
+        "title": "Main System Check (FO_MC_MA011700)",
+        "description": "./system-check",
+        "link": "/system-check",
+        "history": "0405",
+        "visible": true
+      },
+      {
+        "title": "Main Move to App Install (FO_MC_MA011800)",
+        "description": "./move-to-app",
+        "link": "/move-to-app",
+        "history": "0405",
+        "visible": true
+      },
+      {
+        "title": "Product Popup Buy (FO_MC_MA011001P)",
+        "description": "./product-detail?productKey=196",
+        "link": "/product-detail?productKey=196",
+        "history": "0406",
+        "visible": true
+      },
+      {
+        "title": "Category Menu (FO_MC_MA021100)",
+        "description": "./main/category-menu",
+        "link": "/main/category-menu",
+        "history": "0419",
+        "visible": true
+      }
+    ]
+  }
+]

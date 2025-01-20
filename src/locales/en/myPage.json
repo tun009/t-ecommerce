@@ -1,0 +1,182 @@
+{
+  "myPage": {
+    "orderInfo": {
+      "orderNumber": "order number",
+      "orderAddress": "Delivery address",
+      "returnedProduct": "Returned Product",
+      "titleAddress": "Delivery address"
+    },
+    "nonMemberShoppingInfo": {
+      "orderDeliveryInquiry": {
+        "title": "Non-member order delivery inquiry",
+        "noOrder": "There is no order history.",
+        "buttonChange": "Change option",
+        "buttonWithdraw": "Cancel Order"
+      }
+    },
+    "orderDetail": {
+      "title": "Order Details",
+      "product": "Order product",
+      "productReturn": "Returned product",
+      "refundPrice": {
+        "title": "Refund Information",
+        "deposit": "deposit",
+        "reserves": "reserves",
+        "welfarePoints": "welfare points",
+        "payingCreditCard": "Payment by card",
+        "expectedRefund": "Expected refund amount"
+      },
+      "changeOptions": "Change Options",
+      "withDrawOrder": "Withdraw Order",
+      "exchangeRequest": "Exchange Request",
+      "returnRequest": "Return Request",
+      "writeProductReivew": "Write A Product Reivew",
+      "deliveryStatus": "Delivery Status",
+      "btnExchangeProduct": "Exchange product",
+      "btnRecoveredProduct": "Recovered Product",
+      "changeDeliveryAddress": "Change Delivery Address"
+    },
+    "eCouponOrderDetail": {
+      "titleProductOrder": "Order product",
+      "titleInformationDelivery": "Recipient Information",
+      "senderName": "Sender"
+    },
+    "inquiryList": {
+      "title": "Cancellation/Exchange/Return Inquiry",
+      "noInquiry": "There is no cancellation/exchange/return history.",
+      "buttonLoadMore": "More"
+    },
+    "changeOrderDeliveryAddress": {
+      "title": "Change delivery address",
+      "btnCancel": "Cancel",
+      "btnAccept": "Change",
+      "notificationNoChange": "Please enter OOO.",
+      "notificationChangeSuccess": "The request was successfully processed."
+    },
+    "main": {
+      "title": "My Page",
+      "couponTitle": "Coupon",
+      "deliveryTitle": "Delivery",
+      "messageTitle": "Product Review",
+      "couponCount": "coupon",
+      "deliveryCount": "count",
+      "stateDelivery": {
+        "reception": "Order reception",
+        "completePayment": "Payment complete",
+        "preparingProduct": "Preparing product",
+        "shipping": "shipping",
+        "deliveryCompleted": "Delivery completed",
+        "orderStatus": "Order delivery status"
+      },
+      "linkRedirect": {
+        "orderDeliveryInquiry": "Order/Delivery Inquiry",
+        "cancellationExchangeReturn": "Cancellation/Exchange/Return Inquiry",
+        "managementDeliveryAddress": "Delivery address management",
+        "managementProductReview": "Product review management",
+        "likeProduct": "Like Product",
+        "eventAppDetail": "Event application details",
+        "contact": "1:1 inquiry",
+        "detailInquiry": "Inquiry details",
+        "askedQuestionFre": "Frequently Asked Questions"
+      }
+    },
+    "memberDelivery": {
+      "title": "Order Delivery Inquiry"
+    },
+    "exchangeStatus": {
+      "title": "Exchange Status",
+      "description": "<p class='wf-font_17--bold wf-color--g-111 wf-mt-12'>Product <span class='wf-color--f-95729'>Recall order </span> Done.</p>",
+      "titleTable": "Exchange Information"
+    },
+    "refundInformation": {
+      "title": "Re-payment information",
+      "titleShipping": "Pay for return shipping",
+      "titleExchange": "Payment of exchange shipping fee",
+      "labelPrice": "Payment amount",
+      "labelCheckboxCard": "Check card payment",
+      "labelPaymentType": "Installment Month",
+      "placeholderCard": "Select a card.",
+      "placeholderPaymentType": "Select installment period",
+      "cancelButton": "Cancel",
+      "paymentButton": "Make payment"
+    },
+    "refundStatus": {
+      "title": "Return status",
+      "titleTable": "Return information",
+      "description": "<p class='wf-font_17--bold wf-color--g-111 wf-mt-12'><span class='wf-color--f-95729'>Return completed< /span>It is done.</p>"
+    },
+    "deliveryAddress": {
+      "title": "Delivery address management",
+      "deleteConfirmMessage": "Do you want to delete?",
+      "addTitle": "Add shipping address",
+      "editTitle": "Edit shipping address"
+    },
+    "order": {
+      "title": "Order delivery inquiry"
+    },
+    "inquiryExchangeRequest": {
+      "mainTitle": "Exchange request",
+      "deliveryFeeTitle": "Delivery fee",
+      "shippingCostCalculationBtnTitle": "Shipping cost calculation",
+      "applicationBtnTitle": "Application",
+      "exchangeShipCostTitle": "Exchange shipping cost",
+      "exchangeAppInfoTitle": "Exchange application information",
+      "exchangeAppInfoContent1": "Exchange requests are only available for options of the same product and same price.",
+      "exchangeAppInfoContent2": "Additional costs may be incurred depending on the condition of the returned product.",
+      "exchangeReasonPlaceholder": "Please enter the reason for the return. (select)",
+      "orderNumberTitle": "Order Number",
+      "reasonForExchangeTitle": "Reason for exchange",
+      "reasonForExchange1": "Simple change of mind",
+      "reasonForExchange2": "Dissatisfied with color/size options",
+      "reasonForExchange3": "Product defect or damage",
+      "reasonForExchange4": "Missing product delivery",
+      "reasonForExchange5": "Delivery of other products"
+    },
+    "orderCancel": {
+      "reasonForCancel": "Reason for cancellation",
+      "orderShippingCost": "Order shipping cost",
+      "cancelShippingCost": "Order shipping cost",
+      "expectedCancellationAmount": "Expected cancellation amount",
+      "welfarePoint": "Welfare points",
+      "cancellationProductPrice": "Cancellation product price",
+      "additionalShippingCost": "Additional shipping cost",
+      "expectedRefundAmount": "Expected refund amount",
+      "cancelConfirm": "When canceling an order, have you confirmed the product name, product price, and shipping information? Do you agree to cancel the order?",
+      "agree": "I agree",
+      "orderCancellationInformation": "Order cancellation information",
+      "orderCancellationContentOne": "Order cancellation is only possible if the ordered product has not been shipped.",
+      "orderCancellationContentTwo": "When canceling, the discount coupon used for purchase cannot be reused.",
+      "orderCancellationContentThree": "Order shipping costs will be refunded when you cancel your entire order.",
+      "orderCancellationContentFour": "If the quantity order cannot be canceled, please contact customer service at 1566-1234 (paid).",
+      "chooseAReasonNotify": "Please select a reason for cancellation.",
+      "orderCancelNotAgree": "You must agree to order cancellation in order to apply for order cancellation.",
+      "confirmPut": "Would you like to cancel your order?",
+      "putSuccess": "I have applied for order cancellation.",
+      "notItem": "Please select an item",
+      "totalCancelAmount": "Total of selected cancellation amount",
+      "orderShippingCostEntireOrder": "Order shipping costs will be refunded when you cancel the entire order.",
+      "expectedCancellation" : "Expected cancellation amount"
+    },
+    "shoppingInformation": {
+      "refund": {
+        "title": "Order Details",
+        "product": "Order product",
+        "returnQuantity": "Return Quantity",
+        "returnReason": "Reason For Return",
+        "collectionLocationInformation": "Collection Location Information",
+        "fee": "Return shipping cost"
+      },
+      "exchangeHistory": {
+        "title": "Order Details",
+        "product": "Order product",
+        "exchangeQuantity": "Exchange Quantity",
+        "exchangeReason": "Exchange Reason",
+        "exchangeOption": "Exchange Option",
+        "collectionLocationInformation": "Collection Location Information",
+        "exchangeShippingFee": "Exchange Shipping Fee",
+        "exchangeApplication": "Exchange Application"
+
+      }
+    }
+  }
+}

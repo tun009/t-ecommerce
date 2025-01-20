@@ -1,0 +1,9 @@
+.wf-product-info-about-payments{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wf-product-detail-scroll-modal {
+    max-height:700px !important;
+    overflow-y: scroll;
+  }

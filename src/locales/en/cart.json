@@ -1,0 +1,63 @@
+{
+  "cart": {
+    "title": "Shopping basket",
+    "description": {
+      "information": {
+        "title": "Shopping cart information",
+        "list": {
+          "first": "Items in your shopping cart will be stored for 180 days.",
+          "second": "The prices or benefits of products in your shopping cart may change."
+        }
+      },
+      "interest": {
+        "title": "Interest-free information",
+        "list": {
+          "first": "If you order products with different interest-free installment months at once, the lowest installment number will be applied."
+        }
+      }
+    },
+    "empty": {
+      "description": "There are no products contained in the shopping cart.",
+      "buttonText": "Today’s recommended product"
+    },
+    "header": {
+      "selectAll": "Select All",
+      "deleteSelected": "Delete selection",
+      "deleteExpired": "Delete out of stock product"
+    },
+    "payment": {
+      "title": "Expected payment amount",
+      "totalProduct": "Total product amount",
+      "totalDiscount": "Total discount amount",
+      "totalShippingCost": "Total shipping cost",
+      "include": "include",
+      "orderSelectedProduct": "Order selected product",
+      "paymentShippingCost": "Shipping cost"
+    },
+    "productDetail": {
+      "changeOptionBtn": "Change options/quantity",
+      "buyNowBtn": "Buy now",
+      "unit": "unit",
+      "change": "change"
+    },
+    "modalText": {
+      "confirmDeleteProductExpired": "Would you like to delete an out-of-stock product?",
+      "confirmDeleteProductSelected": "Are you sure you want to delete the selected items?",
+      "noHaveAnyProduct": "There are no products selected.",
+      "noHaveAnyProductExpired": "There are no products out of stock.",
+      "removerSuccess": "It has been deleted.",
+      "orderComingSoon": "Order feature coming soon.",
+      "ageVerify": "Age verification feature is coming soon"
+    },
+    "suggestionProduct": {
+      "title": "Good products to buy together"
+    },
+    "detailPriceModal": {
+      "instantDiscount": "Instant Discount",
+      "price": "Price",
+      "totalDiscountAmount": "Total Discount Amount",
+      "expectedPurchasePrice": "Expected Purchase Price",
+      "description": "This is information on discount benefits you can receive when purchasing a product.\n"
+    }
+  }
+}

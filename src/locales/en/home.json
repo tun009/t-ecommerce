@@ -1,0 +1,38 @@
+{
+  "categoryMenu": {
+    "welcome": " sir",
+    "centerService": "Customer Center",
+    "logout": "Log out",
+    "linkPrice": "Today's special price",
+    "linkRank": "Rank (best)",
+    "linkNotify": "Announcement",
+    "point": "welfare point",
+    "delivery": "Delivery",
+    "category": "category"
+  },
+  "homeBannerBottom": {
+    "btnClose": "Close",
+    "btnStopWatch": "Stop watching today",
+    "btnStopWatchForWeek": "Stop watching for a week",
+    "btnNoLook": "Don't look again"
+  },
+  "productSpecialPrice": {
+    "title": "Today's Sale",
+    "seeMore": "See More",
+    "fastDelivery": "Fast delivery! Order today, arrive tomorrow",
+    "relatedProduct": "Products related to the product I viewed",
+    "newProduct": "PREMIUM BEAUTY",
+    "hottestProduct": "The hottest product right now",
+    "detailProduct": "one two three four five six seven eight nine one two three four five six seven eight nine one"
+  },
+  "homeTerm": {
+    "termOfUse": {
+      "title": "Terms of Use",
+      "titlePage": "Megazone Play Terms of Use"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "titlePage": "Megazone Play Privacy Policy"
+    }
+  }
+}

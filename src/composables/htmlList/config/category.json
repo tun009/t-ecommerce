@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Category",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Category product (FO_MC_CA011000/FO_MC_CA011001/FO_MC_CA011002/FO_MC_CA022000/FO_MC_CA022001/FO_MC_CA022012/FO_MC_CA033000P/FO_MC_CA033001P/FO_MC_CA033002P)",
+        "description": "./category/product",
+        "link": "/category/product?category1=DC1DE001&category2=DC2DE001",
+        "history": "0123",
+        "visible": true
+      }
+    ]
+  }
+]

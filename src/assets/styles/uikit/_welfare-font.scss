@@ -1,0 +1,849 @@
+// font-size: 36
+.wf-font_36--semi {
+  font-size: $font-36;
+  font-style: normal;
+  font-weight: $wei-600;
+  line-height: 100%;
+  letter-spacing: -1px;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+}
+
+// font-size: 31
+.wf-font_31--bold {
+  font-size: $font-31;
+  font-style: normal;
+  font-weight: $wei-700;
+  line-height: 100%;
+  letter-spacing: -1px;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+}
+
+// font-size: 24
+.wf-font_24--bold {
+  font-size: $font-24;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+// font-size: 23
+.wf-font_23--bold {
+  font-size: $font-23;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_23--reg {
+  font-size: $font-23;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+// font-size: 22
+.wf-font_22--bold {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+}
+
+// font-size: 21
+.wf-font_21--bold {
+  font-size: $font-21;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_21--mid {
+  font-size: $font-21;
+  font-style: normal;
+  font-weight: $wei-500;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+// font-size: 19
+.wf-font_19--mid {
+  font-size: $font-19;
+  font-style: normal;
+  font-weight: $wei-500;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_19--bold {
+  font-size: $font-19;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_19--semi {
+  font-size: $font-19;
+  font-style: normal;
+  font-weight: $wei-600;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_19-semi--lh130 {
+  font-size: $font-19;
+  font-style: normal;
+  font-weight: $wei-600;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+// font-size: 17
+.wf-font_17--reg {
+  font-size: $font-17;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_17--mid {
+  font-size: $font-17;
+  font-style: normal;
+  font-weight: $wei-500;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+}
+
+.wf-font_17--semi {
+  font-size: $font-17;
+  font-style: normal;
+  font-weight: $wei-600;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_17--bold {
+  font-size: $font-17;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -0.95px;
+}
+
+.wf-font_17-bold--lp1 {
+  font-size: $font-17;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.35px;
+}
+
+.wf-font_17-mid--lh140 {
+  font-size: $font-17;
+  font-style: normal;
+  font-weight: $wei-500;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 140%;
+  letter-spacing: -1px;
+}
+
+.wf-font_17-reg--lh140 {
+  font-size: $font-17;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 140%;
+  letter-spacing: -1px;
+}
+
+.wf-font_17-bold--lh140 {
+  font-size: $font-17;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 140%;
+  letter-spacing: -0.95px;
+}
+
+// font-size: 16
+.wf-font_16--bold {
+  font-size: $font-16;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_16-bold-lh1 {
+  font-size: $font-16;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.wf-font_16--semi {
+  font-size: $font-16;
+  font-style: normal;
+  font-weight: $wei-600;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_16-semi-lh1 {
+  font-size: $font-16;
+  font-style: normal;
+  font-weight: $wei-600;
+  line-height: 100%;
+}
+
+.wf-font_16-mid--lh140 {
+  font-size: $font-16;
+  font-style: normal;
+  font-weight: $wei-500;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 140%;
+  letter-spacing: -1px;
+}
+
+.wf-font_16--mid {
+  font-size: $font-16;
+  font-style: normal;
+  font-weight: $wei-500;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+// font-size: 15
+.wf-font_15--reg {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_15-important {
+  font-size: $font-15 !important;
+}
+
+.wf-font_15--mid {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-500;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_15--semi {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-600;
+  line-height: 100%;
+  letter-spacing: -1.2px;
+}
+
+.wf-font_15--bold {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+.wf-font_15--bold-lt-1 {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_15-mid--lh140 {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-500;
+  line-height: 140%;
+  letter-spacing: -1px;
+}
+
+.wf-font_15-mid--lh100 {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-500;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_15-reg--lh140 {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-400;
+  line-height: 140%;
+  letter-spacing: -1px;
+}
+
+.wf-font_15-mid--lh157 {
+  font-size: $font-15;
+  font-style: normal;
+  font-weight: $wei-500;
+  line-height: 157%;
+  letter-spacing: -1px;
+}
+
+.wf-font_15--reg-p {
+  font-size: $font-15;
+  font-style: Pretendard;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+// font-size: 14
+.wf-font_14-reg--lh130 {
+  font-size: $font-14;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.wf-font_14-reg--lt {
+  font-size: $font-14;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+  text-decoration: line-through;
+}
+
+.wf-font_14--reg {
+  font-size: $font-14;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+.wf-font_14-reg--lp1 {
+  font-size: $font-14;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_14-reg-lh1 {
+  font-size: $font-14;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.wf-font_14--mid {
+  font-size: $font-14;
+  font-style: normal;
+  font-weight: $wei-500;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font_14--semi {
+  font-size: $font-14;
+  font-style: normal;
+  font-weight: $wei-600;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+// font-size: 13px
+.wf-font_13--light {
+  font-size: $font-13;
+  font-style: normal;
+  font-weight: $wei-300;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+.wf-font_13--reg {
+  font-size: $font-13;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.wf-font_13--reg-p {
+  font-size: $font-13;
+  font-style: Pretendard;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.wf-font_13--reg-p-7 {
+  font-size: $font-13;
+  font-style: Pretendard;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.wf-font_13-reg--lt {
+  font-size: $font-13;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+  text-decoration: line-through;
+}
+
+.wf-font_13-reg--lh130 {
+  font-size: $font-13;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.wf-font_13-reg--lh140 {
+  font-size: $font-13;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 140%;
+  letter-spacing: -1px;
+}
+
+.wf-font_13--mid {
+  font-size: $font-13;
+  font-style: normal;
+  font-weight: $wei-500;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+.wf-font_13--semi {
+  font-size: $font-13;
+  font-style: normal;
+  font-weight: $wei-600;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+.wf-font_13--bold {
+  font-size: $font-13;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+// font-size: 12px
+.wf-font_12--bold {
+  font-size: $font-12;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.2px;
+}
+
+.wf-font_12--reg {
+  font-size: $font-12;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+// font-size: 11px
+.wf-font_11--reg {
+  font-size: $font-11;
+  font-style: normal;
+  font-weight: $wei-400;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.4px;
+}
+
+.wf-font_11-i {
+  font-size: $font-11 !important;
+}
+
+.wf-font_11--semi {
+  font-size: $font-11;
+  font-style: normal;
+  font-weight: $wei-600;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.3px;
+}
+
+.wf-font_11--bold {
+  font-size: $font-11;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1.3px;
+}
+
+.wf-font_9--bold {
+  font-size: $font-9;
+  font-style: normal;
+  font-weight: $wei-700;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.wf-font-weight--700 {
+  font-weight: $wei-700;
+}
+
+.wf-font-container table tr {
+  border-bottom: 1px solid $gray7;
+}
+
+.wf-font-container table td,
+.wf-font-container table th {
+  padding: 15px 30px;
+  height: 60px;
+}
+
+.wf-table-font th {
+  border-bottom: solid 1px $gray6;
+  padding-top: 10px;
+}
+.wf-table-font td {
+  padding-top: 2px;
+}
+.wf-table-font th,
+.wf-table-font td {
+  height: 60px;
+  border-bottom: solid 1px $grey-e7;
+}
+.wf-table-font td:nth-child(2) {
+  padding-top: 3px !important;
+}
+.wf-table-font td:nth-child(5) {
+  padding-right: 1px !important;
+}
+.wf-table-font td:last-child {
+  padding-top: 2px !important;
+  padding-left: 0 !important;
+}
+.wf-table-font {
+  margin-top: -9px;
+}
+
+.wf-line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.wf-text-underline {
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
+.wf-text-line-through {
+  text-decoration: line-through;
+}
+
+.wf_text-center {
+  text-align: center;
+}
+
+.wf_text-right {
+  text-align: right;
+}
+
+.wf_line-height-9 {
+  line-height: 9px;
+}
+
+.wf_line-height-13 {
+  line-height: 13px;
+}
+
+.wf_line-height-15-8 {
+  line-height: 15.8px;
+}
+
+.wf_line-height-16-6 {
+  line-height: 16.6px;
+}
+
+.wf_line-height-16-9 {
+  line-height: 16.9px;
+}
+
+.wf_line-height-17 {
+  line-height: 1.0625rem;
+}
+
+.wf_line-height-18 {
+  line-height: 18px !important;
+}
+
+.wf_line-height-19 {
+  line-height: 19px !important;
+}
+
+.wf_line-height-20 {
+  line-height: 1.25rem;
+}
+
+.wf_line-height-25-5 {
+  line-height: 25.5px;
+}
+
+.wf_line-height-27 {
+  line-height: 27px;
+}
+
+.wf_line-height-31 {
+  line-height: 31px;
+}
+
+.wf_line-height-17-5 {
+  line-height: 17.5px !important;
+}
+
+.wf_line-height-17-8 {
+  line-height: 17.8px !important;
+}
+
+.wf_letter-spacing-1 {
+  letter-spacing: 1px !important;
+}
+
+.wf_letter-spacing--1 {
+  letter-spacing: -1px !important;
+}
+
+.wf_letter-spacing--2 {
+  letter-spacing: -2px !important;
+}
+
+.wf_letter-spacing--1-1 {
+  letter-spacing: -1.1px !important;
+}
+
+.wf_letter-spacing--1-15 {
+  letter-spacing: -1.15px !important;
+}
+
+.wf_letter-spacing--2-7 {
+  letter-spacing: -2.7px !important;
+}
+
+.wf_letter-spacing--3 {
+  letter-spacing: -3px !important;
+}
+
+.wf_letter-spacing--04 {
+  letter-spacing: -0.4px;
+}
+
+.wf_letter-spacing--0705 {
+  letter-spacing: -0.705px;
+}
+
+.wf_letter-spacing--0745 {
+  letter-spacing: -0.745px !important;
+}
+
+.wf_letter-spacing--1-2 {
+  letter-spacing: -1.2px !important;
+}
+
+.wf_letter-spacing--1-4 {
+  letter-spacing: -1.4px !important;
+}
+
+.wf_letter-spacing--1-68 {
+  letter-spacing: -1.68px !important;
+}
+
+.wf_letter-spacing--0-7 {
+  letter-spacing: -0.7px;
+}
+
+.wf_letter-spacing--5 {
+  letter-spacing: 0.5px;
+}
+
+.wf_letter-spacing--0-9 {
+  letter-spacing: -0.9px !important;
+}
+
+.wf_letter-spacing--0-8 {
+  letter-spacing: -0.8px !important;
+}
+
+.wf_letter-spacing-0 {
+  letter-spacing: 0 !important;
+}
+
+.wf_letter-spacing--unset {
+  letter-spacing: unset;
+}
+
+.wf_text-wrap {
+  word-break: break-all;
+}
+
+.wf_text-truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wf-line-height-1 {
+  line-height: 1;
+}

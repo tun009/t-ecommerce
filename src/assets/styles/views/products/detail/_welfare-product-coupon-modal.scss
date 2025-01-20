@@ -1,0 +1,20 @@
+@import '../../../commons/_welfare-variables';
+.wf-coupon-pd {
+  padding: 14px 17px 14px 15px;
+}
+.wf-coupon-box {
+  border: 1px solid $grey-e7;
+  padding: 19px 16px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.wf-coupon-status {
+  border-left: 1px solid $grey-e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 14px;
+}
+.wf_isDownloaded {
+  background: $grey-f8;
+}

@@ -1,0 +1,60 @@
+{
+  "search": {
+    "notWriteReview": "You can only write a product review when purchasing a product.",
+    "searchPage": {
+      "titleSearchRecently": "Recent search terms",
+      "emptySearchRecently": "There are no recent searches.",
+      "titleSearchPopular": "Popular searches",
+      "timeSearchPopular": "standard",
+      "deleteAll": "All search terms will be deleted.",
+      "inputPlaceholder": "Please enter your search term",
+      "noProductInCategory": "There are no products in this category."
+    },
+    "sections": {
+      "recommend": "Recommended products",
+      "similar": "Products similar to the product you just viewed",
+      "purchased": "Products I purchased",
+      "mostPurchased": "Most purchased products",
+      "related": "Related search terms",
+      "exhibitionEvents": {
+        "title": "Special exhibition/event",
+        "close": "Close",
+        "more": "See more special exhibitions/events"
+      }
+    },
+    "tabControl": {
+      "toolTipSort": "Recommended products are sorted by comprehensively considering sales performance, product name, and category accuracy."
+    },
+    "emptyResult": {
+      "title": "There are no search results",
+      "subTitle1": "Please double-check that your search term is correct.",
+      "subTitle2": "This item may be temporarily out of stock.",
+      "subTitle3": "Try using different spacing in your search terms.",
+      "subTitle4": "Please try again in a more general query."
+    },
+    "searchCommon": {
+      "buttonView": "View products"
+    },
+    "searchPriceRange": {
+      "won": "won",
+      "invalidRange": "It's out of range."
+    },
+    "searchDisplayType": {
+      "displayType": " display"
+    },
+    "searchBrand": {
+      "freeDelivery": "Free Shipping",
+      "discountCounpon": "Discount Coupon",
+      "freeInterest": "Interest Free"
+    },
+    "searchSort": {
+      "recommend": "Recommended products",
+      "popular": "Popular",
+      "registerRecent": "Recent registration order",
+      "priceDesc": "Price from highest to highest",
+      "priceAsc": "Price from lowest to lowest",
+      "rating": "Product rating order",
+      "mostView": "Order of views"
+    }
+  }
+}

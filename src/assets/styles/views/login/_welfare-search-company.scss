@@ -1,0 +1,56 @@
+@import '../../commons/welfare-variables';
+
+.wf_search-company {
+  position: absolute;
+  top: 40px;
+  max-height: 118px;
+  overflow-y: auto;
+  width: 100%;
+  left: 0;
+}
+
+.wf_search-company.wf-hidden {
+  display: none;
+}
+
+.wf_search-company-item {
+
+  height: 40px;
+  display: flex;
+  padding: 0 14px;
+  align-items: center;
+  background-color: $white;
+
+  &:hover,
+  &.wf-active {
+    background-color: $grey-f8;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.wf-active {
+    cursor: default;
+  }
+}
+
+:deep(.line-btn-51.black-line) {
+  color: $gray2;
+  &:hover:not(:disabled) {
+    color: $gray2;
+    background-color: $white-ff;
+    border-color: $gray1;
+  }
+}
+
+:deep(.line-btn-51.grey-line.wf_search-company-button) {
+  color: $gray5;
+  background-color: $gray8;
+
+  &:hover {
+    color: $gray5;
+    background-color: $gray8;
+    border-color: $gray7;
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "cardOrder": {
+      "title": "Order",
+      "titleOrderProduct": "Order Product",
+      "titleDeliveryOrder": "Delivery information{index}",
+      "useMultiAddress": "Use multiple shipping addresses",
+      "nameOrderer": "Orderer",
+      "nameOrdererNonMember": "Order name",
+      "btnDelivery": {
+          "default": "Default shipping address",
+          "new": "New delivery address",
+          "list": "Delivery address list"
+      },
+      "messageAdressPlaceholder": "Please select a delivery message",
+      "inputMessagePlaceholder": "Direct input is possible. (Up to 20 Korean characters)",
+      "deliveryNotes": {
+          "item1": "The delivery message is the message displayed to the delivery company/delivery driver.",
+          "item2": "<span>Islands/Jeju area: <span class='wf-color--red-ff-3-b-4-f'> Additional shipping fee, delivery not possible</span> depending on the product. There may be.</span>"
+      },
+      "discount": {
+          "title": "Discount information",
+          "instant": "Instant discount",
+          "lumpSum": "lump sum discount",
+          "coupon": "Coupon discount"
+      },
+      "savePoint": {
+          "title": "Use points/savings",
+          "welPoint": "welfare point",
+          "point": "savings",
+          "reserve": "deposit"
+      },
+      "paymentMethod": {
+          "title": "Payment method",
+          "usePaymentMethodAgain": "Use this payment method again",
+          "megaPay": "Mega pay",
+          "orderPayment": "Other Payment",
+          "btnAddPayment": "Add additional registration",
+          "bankList": {
+              "creditCard": "credit card",
+              "mobileCard": "Mobile phone payment"
+          }
+      },
+      "pricePayment": {
+          "title": "Payment amount",
+          "amountProduct": "Product amount",
+          "fee": "Shipping fee",
+          "amountDiscount": "Discount amount",
+          "usePoint": "Use Points",
+          "totalPrice": "Final payment price",
+          "notes": {
+              "item1": "Estimated payment points can be checked on [Order completion page].",
+              "item2": "Actual payment amount may vary depending on applicable benefits and events."
+          },
+          "immediatelyDiscountAmount": "Immediately Discount",
+          "couponDiscountAmount": "Coupon Discount",
+          "welfarePointPaymentAmount": "welfare points"
+      },
+      "messageAgreement": "I agree to the product, price, discount, and delivery information for the above order.",
+      "paymentText": "Payment",
+      "typeAddressDelivery": {
+          "home": "Company",
+          "company": "Company",
+          "other": "other"
+      },
+      "crashReceipt": {
+          "title": "Application for cash receipt"
+      },
+      "noteChooseAdress": "<span>If you only want to select one delivery address, <span class='wf-color--red-ff-3-b-4-f'>Deselect multiple delivery addresses</span> Please do it. </span>",
+      "messageSaveMoney": "<span>The deposit is the amount paid in excess when purchasing a product or the amount that is kept as a deposit for convenient use in the next order, rather than being refunded when the ordered product is canceled</span>",
+      "fixedTitleMessageSaveMoney": "Operation review required",
+      "titledMessageSaveMoney": "Deposit Information",
+      "titleChooseAddress": "Multiple delivery addresses",
+      "orderCoupon": {
+          "title": "Payment method",
+          "titleCheckBoxSend": "Send to multiple people",
+          "nameOutgoingPlaceholder": "name",
+          "phoneOutgoingPlaceholder": "Mobile phone number (enter only numbers without -)",
+          "btnInfoMe": "Send to me",
+          "btnInfoOther": "Load contacts",
+          "titleNameMessage": "Sender",
+          "titleContentMessage": "Message",
+          "placeholderContentMessage": "Please enter a message to convey to the recipient."
+      },
+      "orderNotMember": {
+          "title": "Identity Verification",
+          "titlePolicy": "Agree to non-member terms and conditions and verify identity",
+          "termUse": "(Required) Agree to Terms of Use",
+          "allowInfo": "(Required) Consent to collection and use of non-member personal information",
+          "btnCertificate": "Mobile phone authentication"
+      },
+      "orderInfoOrderer": {
+          "title": "Order information",
+          "orderer": "orderer",
+          "infoContact": "Order Contact",
+          "email": "Order email"
+      },
+      "orderCertification": {
+          "title": "Mobile phone authentication",
+          "titleVerification": "Non-member mobile phone identity verification",
+          "name": "name",
+          "phone": "Mobile phone number",
+          "phonePlaceholder": "Enter only numbers without -",
+          "inputSendPlaceholder": "Enter authentication number",
+          "btnReSend": "Resend authentication number",
+          "btnSend": "Send authentication number"
+      },
+      "orderAddDelivery": {
+          "titleCount": "Number of delivery destinations"
+      },
+      "noteAgreePolicy": "The welfare portal is a portal service for the welfare of members. In the case of information leakage, purchase agency, resale, or bulk purchase for profit purposes, shipment may be stopped and payment may be canceled at our discretion.",
+      "crashNote": "Only either a cash receipt or a tax invoice can be issued."
+  },
+  "orderCompleted": {
+    "title": "Order completed",
+    "productTitle": "Order product",
+    "methodTitle": "Payment Information",
+    "otherProductTitle": "Good products to buy together",
+    "buttonBack": "Go Home",
+    "buttonOrder": "Order delivery tracking"
+
+  }
+}

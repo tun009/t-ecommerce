@@ -1,0 +1,13 @@
+@import '../../../commons/welfare-variables';
+
+.wf-item-float-button-item {
+  width: 42px;
+  height: 42px;
+
+  background-color: rgba($color: $white-ff, $alpha: 0.8);
+  border-radius: 50%;
+  border: 1px solid $gray6;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}

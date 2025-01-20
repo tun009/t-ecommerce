@@ -1,0 +1,183 @@
+{
+  "hello": "Hello",
+  "welcome": "Welcome to our application",
+  "auth": {
+    "auth-number-request": "Authentication number request",
+    "changePassword": {
+      "resetPassword": "Reset password",
+      "enterNewPassword": "Enter new password",
+      "confirmNewPassword": "Confirm new password",
+      "note1": "Password must be English + numbers + special characters, the same letters or numbers 3 or more times",
+      "note2": "Please enter 8 to 20 characters to avoid repetition.",
+      "button": "Reset password",
+      "errorNullPass": "Please enter your password.",
+      "notePassword": "Please enter 8 to 20 characters using a combination of English letters, numbers, and special characters (!@$%^&*).",
+      "checkSamePass": "Passwords do not match.",
+      "submitFail": "Cannot change to the same password.",
+      "submitSuccess": "Your password has been reset. <br> Go to the login page."
+    },
+    "login": {
+      "searchCompany": {
+        "nameBtn": "Company name",
+        "urlBtn": "URL",
+        "submitBtn": "Next",
+        "namePlaceholder": "Please enter the company name",
+        "urlPlaceholder": "Please enter URL",
+        "subUrlTitle": "Please enter the web access URL."
+      },
+      "wrap": {
+        "lang": "Korean",
+        "subTitle": "Customized welfare services for executives and employees",
+        "phone": "Customer Center 1588-9999",
+        "time": "Operating hours 9:00 - 18:00 / Lunch time (12:00 - 13:00) excluding weekends and public holidays"
+      },
+      "form": {
+        "title": "Megazone Digital",
+        "saveId": "Save ID",
+        "button": "Login",
+        "placeholderId": "ID (please enter your company email)",
+        "placeholderPassword": "Password must be 8-20 characters mixed with English letters, numbers, and special characters."
+      },
+      "notification": {
+        "requiredBold": "Please enter your ID/password.",
+        "requiredId": "Please enter your ID.",
+        "errorFormatId": "The email format is incorrect.",
+        "unusedAccount": "You are unable to log in. Please contact the administrator.",
+        "requiredPassword": "Please enter your password.",
+        "errorPassword": "Please check your ID or password again</br> <span class='wf-mt-1'>and enter it.</span>",
+        "errorPasswordMultiple": "You entered your login information incorrectly 5 times. </br> <div class='wf-mt-3 wf-ml--2'>In Find ID, Find Password </br> <div class= 'wf-mt-2'>Please check the correct information and log in.</div></div>",
+        "errorAccountVerify": "Your account has not been verified."
+      },
+      "redirect": {
+        "findId": "Find ID",
+        "resetPassword": "Reset password"
+      },
+      "byFindId": {
+        "title": "ID search results",
+        "subTitle": "Your ID has been found.",
+        "bottomTitle": "For dormant members, dormancy will be canceled upon completion of login.",
+        "btnLogin": "Login",
+        "changePassword": "Reset password",
+        "emailTitle": "ID",
+        "dateTitle": "Join date",
+        "memberTitle": "Member Status",
+        "status": "dormant"
+      }
+    },
+    "findId": {
+      "title": "Find ID",
+      "note": "If your mobile phone number has changed, please contact customer service at 1588-9999.",
+      "form": {
+        "placeholderName": "name",
+        "placeholderPhone": "Enter only numbers without mobile phone number [-]",
+        "button": "Request authentication number"
+      },
+      "notification": {
+        "errorPhone": "Please check your mobile phone number again.",
+        "sendPhone": "A verification number has been sent to your mobile phone.",
+        "errorFindId": "Please check your member name and mobile phone number again.",
+        "errorOtp": "The authentication number does not match."
+      }
+    },
+    "reset-password": {
+      "_": "Reset password",
+      "contact-when-number-be-changed": "If your mobile phone number has changed, please contact customer service at 1588-9999.",
+      "change-after-90-button": "Change after 90 days",
+      "change-after-90-desc": "<p>90 days have passed since you set your password.</p><p>Please reset your password.</p>",
+      "change-after-90-title": "Password reset instructions",
+      "invalid-password": "Please enter within 8 to 20 characters using a combination of English letters, numbers, and special characters {'(!@$%^&*)'}.",
+      "invalid-password-character": "Only special characters are allowed: {'!@$%^&*'}.",
+      "invalid-password-repeat": "Password does not match.",
+      "invalid-phone": "Please check your mobile phone number again.",
+      "invalid-phone-name": "Please check your member name and mobile phone number again.",
+      "verification-number-be-sent": "A verification number has been sent to the mobile phone number you entered.",
+      "verification-number-be-sent-modal-message": "A verification number has been sent to your mobile phone.",
+      "verification-number-expired": "<p>The verification number input time has expired.</p><p class='wf-mt-2'>Please resend the verification number.</p>",
+      "verification-number-incorrect": "Verification number does not match.",
+      "verification-number-placeholder": "Enter verification number",
+      "verification-number-resend": "Resend verification number"
+    }
+  },
+  "order": {
+    "modal": {
+      "won": "won",
+      "totalDiscount": "Total Discount",
+      "instantDiscountDetails": "Instant Discount Details",
+      "makePayment": "Make a payment",
+      "payment": "Payment of { money } won",
+      "mustAgree": "You must agree to purchase.",
+      "agree": "I agree to the product, price, discount, and delivery information for the above order.",
+      "noteAgree1": "The welfare portal is a portal service for members' welfare and benefits",
+      "noteAgree2": "In case of information leakage, purchasing agency, resale, or bulk purchase for the purpose of arbitrarily",
+      "noteAgree3": "Delivery may be suspended and payment may be cancelled.",
+      "deliveryAddressList": "Delivery address list",
+      "emptyAddressList": "There is no registered shipping address information.",
+      "defaultAddress": "Default shipping address",
+      "editAddress": "Edit shipping address",
+      "addAddress": "Add shipping address",
+      "chooseTypeAddress": "Delivery address type",
+      "home": "home",
+      "office": "workplace",
+      "others": "others",
+      "receive": "the one who receives",
+      "receivePlaceholder": "Please enter the recipient's name.",
+      "address": "address",
+      "setDefault": "Set as default shipping address",
+      "searchAddress": "Please search the address.",
+      "searchAddressButton": "zip code",
+      "genericAddress": "Use the zip code finder.",
+      "detailAddress": "Enter the detailed address.",
+      "tel": "mobile phone number",
+      "contact": "Contact",
+      "select": "select",
+      "telPlaceholder": "Enter only numbers without [-]",
+      "sumDiscount": {
+        "name": "Lump sum discount information",
+        "note1": "Discount applies to lump sum payment by credit card or check card.",
+        "note2": "Credit card (installment), mobile phone payment, Kakao Pay, Naver Pay,",
+        "note3": "Discount is not applied when selecting Samsung Pay.",
+        "note4": "- Orderer's name, address, mobile phone number, landline phone number (optional),",
+         "note5": "E-mail (if the orderer and recipient are different, the recipient's name,",
+         "note6": "Address, mobile phone number, landline phone number (optional)",
+         "note7": "- Information about payment (account information for cash refund when withdrawing subscription, etc.)",
+         "rule3": "3. Retention and use period of personal information",
+         "note8": "- In principle, the purpose of collecting or receiving personal information",
+         "note9": "Once the purpose is achieved, it will be destroyed without delay. However, in e-commerce",
+         "note10": "In accordance with relevant laws such as the Consumer Protection Act, etc.",
+         "note11": "If preservation is necessary, it will be preserved for a certain period of time.",
+         "note12": "- Records on contracts or cancellation of subscription, etc.: 5 years",
+         "note13": "- Records of payment and supply of goods, etc.: 5 years",
+         "note14": "- Records on consumer complaints or dispute resolution: 3 years"
+       },
+       "button": {
+         "cancel": "Cancel",
+         "addNew": "Add",
+         "check": "Confirm",
+         "addAddress": "Add shipping address",
+         "edit": "edit",
+         "choose": "choose",
+         "delete": "delete"
+       },
+       "applyCoupon": {
+         "title": "Apply/Check Coupon",
+         "reloadBtn": "Reset coupon"
+       }
+     }
+   },
+   "rank": {},
+   "footer": {
+     "company": "Megazone Co., Ltd.",
+     "owner": "CEO: Jang Ji-hwang | Business registration number: 214-86-79342",
+     "report": "Mail-order business report: 2222-Seoul Yeoksam-1234 | Check business information",
+     "address": "Megazone Building, 46 Nonhyeon-ro 85-gil, Gangnam-gu, Seoul",
+     "phone": "TEL : 82 . 2 . 2109 . 2500 | FAX : 82 . 02 . 2051 . 0102",
+     "copyright": "Copyright ⓒ Megazone All Rights Reserved",
+     "links": ["Customer Center", "", "Login", "", "App Notification Settings"],
+     "aboutLinks": ["Company Introduction", "Business Information Confirmation", "Privacy Policy", "Terms of Use"],
+     "selectFooterOptions": ["Megazone Digital", "Megazone Cloud", "Pentacle", "Indigo", "Hosting KR", "Convergence Lifelong Education Center", "Recruitment"],
+     "selectPlaceholder": "Family Site"
+   },
+   "moveToApp" : {
+     "content": "You are moving to the Megazone Play<br/> application."
+   }
+}

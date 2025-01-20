@@ -1,0 +1,21 @@
+{
+  "error": {
+    "required": " cannot be empty.",
+    "numberCode": "Authentication number does not match"
+  },
+  "errorNotFound": {
+    "sorry": "Sorry.",
+    "title": "The page you requested cannot be found.",
+    "content": "If the same problem continues to occur, please contact customer service.",
+    "customService": "customer service center",
+    "goToMain": "Go to main",
+    "comingSoon": "is coming soon"
+  },
+  "systemCheck": {
+    "titleOne": "To improve service quality",
+    "titleTwo": "We are conducting a system check.",
+    "content": "All services cannot be used within the inspection time <br> Please understand that this is temporarily suspended.<br>We will do our best to complete it as quickly as possible..",
+    "date": "Date",
+    "detail": "Detail"
+  }
+}

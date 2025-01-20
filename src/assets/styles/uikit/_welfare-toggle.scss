@@ -1,0 +1,38 @@
+@import '../commons/_welfare-variables';
+/* The switch - the box around the slider */
+.p-inputswitch {
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  box-shadow: none;
+}
+
+.p-inputswitch.p-focus .p-inputswitch-slider {
+  box-shadow: none;
+}
+
+.p-inputswitch .p-inputswitch-checked {
+  background-color: $black-1f !important;
+}
+
+.p-inputswitch .p-inputswitch-slider {
+  background-color: $grey-dd;
+}
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background-color: $black-1f;
+}
+
+/* The slider */
+.p-inputswitch .p-inputswitch-slider:before {
+  background-color: $white;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  height: 19px;
+  width: 19px;
+  top: 13.45px;
+  left: 4.3px;
+}
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
+  left: 7.5px;
+}

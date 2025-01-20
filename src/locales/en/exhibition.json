@@ -1,0 +1,11 @@
+{
+  "exhibition": {
+    "bannerGroupInfo": {
+      "period": "Period",
+      "getCoupon": "Get coupon",
+      "getCouponSuccess": "A coupon has been issued.",
+      "getCouponFail": "Coupons cannot be downloaded (sold out, issuance period ends, number of downloads exceeded).",
+      "notificationTitle": "Notice"
+    }
+  }
+}

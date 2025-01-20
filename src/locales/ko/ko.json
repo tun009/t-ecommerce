@@ -1,0 +1,208 @@
+{
+  "hello": "안녕하세요",
+  "welcome": "우리 어플리케이션에 오신 것을 환영합니다",
+  "auth": {
+    "auth-number-request": "인증번호요청",
+    "changePassword": {
+      "resetPassword": "비밀번호 재설정",
+      "enterNewPassword": "신규 비밀번호 입력",
+      "confirmNewPassword": "신규 비밀번호 확인",
+      "note1": "비밀번호는 영문+숫자+특수문자, 동일 문자나 숫자 3회 이상",
+      "note2": "반복되지 않도록 8~20자로 입력해주세요.",
+      "button": "비밀번호 재설정하기",
+      "errorNullPass": "비밀번호를 입력해주세요.",
+      "notePassword": "8~20자 이내의 영문, 숫자, 특수문자(!@$%^&*) 조합으로 입력해주세요.",
+      "checkSamePass": "비밀번호가 일치하지 않습니다.",
+      "submitFail": "동일한 비밀번호로 변경할 수 없습니다.",
+      "submitSuccess": "비밀번호가 재설정되었습니다. <br> 로그인페이지로 이동합니다."
+    },
+    "login": {
+      "searchCompany": {
+        "nameBtn": "회사명",
+        "urlBtn": "URL",
+        "submitBtn": "다음",
+        "namePlaceholder": "회사명을 입력해주세요",
+        "urlPlaceholder": "URL을 입력해주세요",
+        "subUrlTitle": " URL은 web접속 URL을 입력해주세요"
+      },
+      "wrap": {
+        "lang": "한국어",
+        "subTitle": "임직원을 위한 맞춤형 복지서비스",
+        "phone": "고객센터 1588-9999",
+        "time": "이용시간 9시-18시/ 주말, 공휴일제외 점심시간 (12시-13시)"
+      },
+      "form": {
+        "title": "메가존디지털",
+        "saveId": "아이디저장",
+        "button": "로그인",
+        "placeholderId": "아이디 (회사 이메일을 입력해주세요)",
+        "placeholderPassword": "비밀번호는 영문,숫자,특수문자 혼합 8-20자"
+      },
+      "notification": {
+        "requiredBold": "아이디/비밀번호를 입력해주세요.",
+        "requiredId": "아이디를 입력해주세요.",
+        "errorFormatId": "이메일 형식이 올바르지 않습니다.",
+        "unusedAccount": "로그인이 불가한 상태입니다. 관리자에 문의해 주세요.",
+        "requiredPassword": "비밀번호를 입력해주세요.",
+        "errorPassword": "아이디 또는 비밀번호를 다시 확인 후 </br> <span class='wf-mt-1'>입력해주세요.</span>",
+        "errorPasswordMultiple": "로그인 정보를 5회 잘못 입력하셨습니다. </br> <div class='wf-mt-3 wf-ml--2'>아이디 찾기, 비밀번호 찾기에서  </br> <div class='wf-mt-2'>정확한 정보를 확인하시고 로그인 해주세요.</div></div>",
+        "errorAccountVerify": "귀하의 계정이 확인되지 않았습니다."
+      },
+      "redirect": {
+        "findId": "아이디 찾기",
+        "resetPassword": "비밀번호 재설정"
+      },
+      "byFindId": {
+        "title": "아이디 찾기 결과",
+        "subTitle": "회원님의 아이디를 찾았습니다.",
+        "bottomTitle": "휴면회원의 경우, 로그인 완료 시 휴면해제됩니다.",
+        "btnLogin": "로그인",
+        "changePassword": "비밀번호 재설정",
+        "emailTitle": "아이디",
+        "dateTitle": "가입일",
+        "memberTitle": "회원상태",
+        "status": "휴면"
+      }
+    },
+    "findId": {
+      "title": "아이디 찾기",
+      "note": "휴대폰번호가 변경된 경우, 고객센터(1588-9999)로 문의해주세요.",
+      "form": {
+        "placeholderName": "이름",
+        "placeholderPhone": "휴대폰번호 [-] 없이 숫자만 입력",
+        "button": "인증번호요청"
+      },
+      "notification": {
+        "errorPhone": "휴대폰번호를 다시 확인해주세요.",
+        "sendPhone": "휴대폰으로 인증번호가 발송되었습니다.",
+        "errorFindId": "회원명과 휴대폰번호를 다시 확인해주세요.",
+        "errorOtp": "인증번호가 일치하지 않습니다."
+      }
+    },
+    "reset-password": {
+      "_": "비밀번호 재설정",
+      "contact-when-number-be-changed": "휴대폰번호가 변경된 경우, 고객센터(1588-9999)로 문의해주세요.",
+      "change-after-90-button": "90일뒤에 변경하기",
+      "change-after-90-desc": "<p>비밀번호 설정 후 90일이 지났습니다.</p><p>비밀번호를 재설정해주세요.</p>",
+      "change-after-90-title": "비밀번호 재설정 안내",
+      "invalid-password": "8~20자 이내의 영문, 숫자, 특수문자{'(!@$%^&*)'} 조합으로 입력해주세요.",
+      "invalid-password-character": "특수문자는 {'!@$%^&*'} 만 사용 가능합니다.",
+      "invalid-password-repeat": "비밀번호가 일치하지 않습니다.",
+      "invalid-phone": "휴대폰번호를 다시 확인해주세요.",
+      "invalid-phone-name": "회원명과 휴대폰번호를 다시 확인해주세요.",
+      "verification-number-be-sent": "입력하신 휴대폰번호로 인증번호가 발송되었습니다.",
+      "verification-number-be-sent-modal-message": "휴대폰으로 인증번호가 발송되었습니다.",
+      "verification-number-expired": "<p>인증번호 입력시간이 초과되었습니다.</p><p class='wf-mt-2'>인증번호를 재발송 해주세요.</p>",
+      "verification-number-incorrect": "인증번호가 일치하지 않습니다.",
+      "verification-number-placeholder": "인증번호입력",
+      "verification-number-resend": "인증번호 재발송"
+    }
+  },
+  "order": {
+    "modal": {
+      "won": "원",
+      "totalDiscount": "총할인",
+      "instantDiscountDetails": "즉시할인 내역",
+      "makePayment": "결제하기",
+      "payment": "{ money }원 결제",
+      "mustAgree": "구매동의를 하셔야만 합니다.",
+      "agree": "위 주문의 상품, 가격, 할인, 배송정보에 동의합니다.",
+      "noteAgree1": "복지포탈은 회원의 복리후생을 위한 포탈서비스이며, 영리를",
+      "noteAgree2": "목적으로 정보유출, 구매대행, 재판매, 대량 구매 시에는 임의로",
+      "noteAgree3": "출고 중지 및 결제가 취소될 수 있습니다.",
+      "deliveryAddressList": "배송지 목록",
+      "emptyAddressList": "등록된 배송지 정보가 없습니다.",
+      "defaultAddress": "기본 배송지",
+      "editAddress": "배송지 수정",
+      "addAddress": "배송지 추가",
+      "chooseTypeAddress": "배송지 구분",
+      "home": "자택",
+      "office": "직장",
+      "others": "기타",
+      "receive": "받으시는분",
+      "receivePlaceholder": "받으시는 분 이름을 적어주세요.",
+      "address": "주소",
+      "setDefault": "기본배송지로 설정",
+      "searchAddress": "주소를 검색해주세요.",
+      "searchAddressButton": "우편번호",
+      "genericAddress": "우편번호 찾기를 이용하세요.",
+      "detailAddress": "상세 주소를 입력하세요.",
+      "tel": "휴대폰번호",
+      "contact": "연락처",
+      "select": "선택",
+      "telPlaceholder": "[-]없이 숫자만 입력",
+      "sumDiscount": {
+        "name": "일시불 할인 안내",
+        "note1": "신용카드, 체크카드 일시불 결제 시 할인이 적용됩니다.",
+        "note2": "신용카드(할부), 휴대폰결제, 카카오페이, 네이버페이,",
+        "note3": "삼성페이 선택 시 할인이 적용되지 않습니다.",
+        "note4": "할인 적용 시 무이자할부는 적용 불가합니다.",
+        "note5": "할인 적용 시 적립금, 예치금 사용이 불가합니다."
+      },
+      "personalInformation": {
+        "name": "비회원 개인정보 수집 및 이용 동의",
+        "rule1": "목적",
+        "note1": "본인여부 확인 및 계약이행 (요금정산, 물품배송, 환불,",
+        "note2": "교환 등), 이를 위한 연락, 구매자 식별, 청구서 발송,",
+        "note3": "민원처리, 성인인증(주류 통신판매의 경우)",
+        "rule2": "항목",
+        "note4": "성명, (휴대)전화번호, 이메일주소, 주소, 결제수단정보, CI, BI, 현금영수증정보",
+        "rule3": "보유기간",
+        "note5": "관련법령의 보유기간 까지",
+        "note6": "정보주체는 개인정보 수집에 동의를 거부할 권리가 있습니다.",
+        "note7": "다만, 서비스 이용 필수 항목에 대한 동의를 거부할 시",
+        "note8": "제공되는 서비스를 이용 할 수 없습니다."
+      },
+      "termAndCondition": {
+        "note": "이용약관 내용 임의로 넣음",
+        "name": "이용약관",
+        "rule1": "1. 개인정보의 수집 및 이용목적",
+        "note1": "- 주문자 정보확보",
+        "note2": "- 물품에 관한 배송지 정보 확보",
+        "note3": "- 불만처리 의사소통 경로확보",
+        "rule2": "2. 수집하는 개인정보의 항목",
+        "note4": "- 주문자의 이름, 주소, 휴대폰번호, 일반전화번호(선택),",
+        "note5": "이메일(주문자와 수령자가 다를경우 수령자의 이름,",
+        "note6": "주소, 휴대폰번호, 일반전화번호(선택)",
+        "note7": "- 대금 결제에 관한 정보(청약 철회 시 현금환불 계좌 정보 등)",
+        "rule3": "3. 개인정보의 보유 및 이용기간",
+        "note8": "- 원칙적으로 개인정보의 수집목적 또는 제공받은",
+        "note9": "목적이 달성되면 지체 없이 파기합니다.단, 전자상거래",
+        "note10": "등에서의 소비자보호에 관한 법률 등 관계 법률에 의해",
+        "note11": "보존할 필요가 있는 경우에는 일정기간 보존합니다.",
+        "note12": "- 계약 또는 청약철회 등에 관한 기록 : 5년",
+        "note13": "- 대금결제 및 재화 등의 공급에 관한 기록 : 5년",
+        "note14": "- 소비자 불만 또는 분쟁처리에 관한 기록 : 3년"
+      },
+      "button": {
+        "cancel": "취소",
+        "addNew": "추가",
+        "check": "확인",
+        "addAddress": "배송지 추가",
+        "edit": "수정",
+        "choose": "선택",
+        "delete": "삭제"
+      },
+      "applyCoupon": {
+        "title": "쿠폰 적용/조회",
+        "reloadBtn": "쿠폰 초기화"
+      }
+    }
+  },
+  "rank": {},
+  "footer": {
+    "company": "메가존(주)",
+    "owner": "대표이사 : 장지황 | 사업자번호 : 214-86-79342",
+    "report": "통신판매업신고 : 2222-서울역삼-1234",
+    "address": "서울특별시 강남구 논현로85길 46 메가존빌딩",
+    "phone": "TEL : 82 . 2 . 2109 . 2500 | FAX : 82 . 02 . 2051 . 0102",
+    "copyright": "Copyright ⓒ 메가존 All Rights Reserved",
+    "links": ["고객센터", "", "로그인", "", "앱알림설정"],
+    "aboutLinks": ["회사소개", "사업자정보확인", "개인정보처리방침", "이용약관"],
+    "selectFooterOptions": ["메가존디지털", "메가존클라우드", "펜타클", "인디고", "호스팅케이알", "융합평생교육원", "인재채용"],
+    "selectPlaceholder": "패밀리사이트"
+  },
+  "moveToApp": {
+    "content": "메가존플레이<br/>어플리케이션으로 이동중입니다."
+  }
+}

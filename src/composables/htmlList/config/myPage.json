@@ -1,0 +1,225 @@
+[
+  {
+    "title": "MY PAGE",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Welfare Points - Available - Reserves(FO_MC_MY022001)",
+        "description": "./my-page/bank/welfare-points?type=Reserves",
+        "link": "/my-page/bank/welfare-points?type=Reserves",
+        "history": "0110 0318",
+        "visible": true
+      },
+      {
+        "title": "Welfare Points - Available - Welfare points (FO_MC_MY020001)",
+        "description": "./my-page/bank/welfare-points?type=WelfarePoints",
+        "link": "/my-page/bank/welfare-points?type=WelfarePoints",
+        "history": "0110 0318",
+        "visible": true
+      },
+      {
+        "title": "Welfare Points - Available - Coupon (FO_MC_MY021001)",
+        "description": "./my-page/bank/welfare-points?type=Coupon",
+        "link": "/my-page/bank/welfare-points?type=Coupon",
+        "history": "0110 0318",
+        "visible": true
+      },
+      {
+        "title": "Welfare Points - Available - Reserves - None(FO_MC_MY022002)",
+        "description": "./my-page/bank/welfare-points?type=Reserves&empty=1",
+        "link": "/my-page/bank/welfare-points?type=Reserves&empty=1",
+        "history": "0110 0318",
+        "visible": true
+      },
+      {
+        "title": "Welfare Points - Available - Welfare points - None (FO_MC_MY020002)",
+        "description": "./my-page/bank/welfare-points?type=WelfarePoints&empty=1",
+        "link": "/my-page/bank/welfare-points?type=WelfarePoints&empty=1",
+        "history": "0110 0318",
+        "visible": true
+      },
+      {
+        "title": "Welfare Points - Available - Coupon - None (FO_MC_MY021002)",
+        "description": "./my-page/bank/welfare-points?type=Coupon&empty=1",
+        "link": "/my-page/bank/welfare-points?type=Coupon&empty=1",
+        "history": "0110 0318",
+        "visible": true
+      },
+      {
+        "title": "My Page Main (FO_MC_MY001000)",
+        "description": "./my-page/main",
+        "link": "/my-page/main",
+        "history": "0403",
+        "visible": true
+      },
+      {
+        "title": "My Page Delivery Order Inquiry (FO_MC_MY011001)",
+        "description": "./my-page/order/delivery-inquiry",
+        "link": "/my-page/order/delivery-inquiry",
+        "history": "0403",
+        "visible": true
+      },
+      {
+        "title": "My Page - Order - Delivery Inquiry_[Pop-up] - Repay - Show button check payment card (FO_MC_MY015002P)",
+        "description": "./my-page/delivery-inquiry?isShowCheckBox=yes",
+        "link": "/my-page/delivery-inquiry?isShowCheckBox=yes",
+        "history": "0112",
+        "visible": true
+      },
+      {
+        "title": "My Page - Order - Delivery Inquiry_[Pop-up] - Repay - Hide button check payment card (FO_MC_MY015002P)",
+        "description": "./my-page/delivery-inquiry?isShowCheckBox=no",
+        "link": "/my-page/delivery-inquiry?isShowCheckBox=no",
+        "history": "0112",
+        "visible": true
+      },
+      {
+        "title": "Claim - MyPage - Cancellation/Exchange/Return - None (FO_MC_MY016101)",
+        "description": "./my-page/cancel-exchange-return-inquiry?fromDate=2023-11-05T00:00:00&toDate=2023-11-05T00:00:00",
+        "link": "/my-page/cancel-exchange-return-inquiry?fromDate=2023-11-05T00:00:00&toDate=2023-11-05T00:00:00",
+        "history": "0112",
+        "visible": true
+      },
+      {
+        "title": "Claim - MyPage - Cancellation/Exchange/Return - Available (FO_MC_MY016102)",
+        "description": "./my-page/cancel-exchange-return-inquiry?fromDate=2023-11-05T00:00:00&toDate=2024-01-20T00:00:00",
+        "link": "/my-page/cancel-exchange-return-inquiry?fromDate=2023-11-05T00:00:00&toDate=2024-01-20T00:00:00",
+        "history": "0112",
+        "visible": true
+      },
+      {
+        "title": "Order - MyPage - Order Details - e-Coupon Order Details - Single Delivery Address (FO_MC_MY014009)",
+        "description": "./my-page/e-coupon-order-detail/10020",
+        "link": "/my-page/e-coupon-order-detail/10020",
+        "history": "0112",
+        "visible": true
+      },
+      {
+        "title": "Order - MyPage - Order Details - e-Coupon Order Details - Multiple Delivery Address (FO_MC_MY014010)",
+        "description": "./my-page/e-coupon-order-detail/10020",
+        "link": "/my-page/e-coupon-order-detail/10020",
+        "history": "0112",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Confirm Password (FO_MC_MY061000) - Edit Member Info (FO_MC_MY062000)",
+        "description": "./my-page/edit-member-info",
+        "link": "/my-page/edit-member-info",
+        "history": "0307",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Product Review Write List (FO_MC_MY041000) - Product Review Write (FO_MC_MY041001P)",
+        "description": "./my-page/products/review",
+        "link": "my-page/products/review",
+        "history": "0222",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Product Like List (FO_MC_MY030001)",
+        "description": "./my-page/products/like",
+        "link": "my-page/products/like",
+        "history": "0222",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Recently Product List (FO_MC_RE101000)",
+        "description": "./my-page/products/recently",
+        "link": "my-page/products/recently",
+        "history": "0222",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Customer (FO_MC_CS011001)",
+        "description": "./my-page/customer",
+        "link": "my-page/customer",
+        "history": "0304",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Inquiry Write (FO_MC_CS021000)",
+        "description": "./my-page/inquiry/write",
+        "link": "my-page/inquiry/write",
+        "history": "0304",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Notice (FO_MC_CS033010)",
+        "description": "./my-page/notice",
+        "link": "my-page/notice",
+        "history": "0304",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Setting (FO_MC_MY082001)",
+        "description": "./my-page/setting",
+        "link": "my-page/setting",
+        "history": "0301",
+        "visible": true
+      },
+      {
+        "title": "MyPage - Notifications (FO_MC_MY091001)",
+        "description": "./my-page/notifications",
+        "link": "my-page/notifications",
+        "history": "0301",
+        "visible": true
+      },
+      {
+        "title": "MyPage Inquiry Details (FO_MC_MY053001)",
+        "description": "./my-page/inquiry/details?type=member",
+        "link": "/my-page/inquiry/details?type=member",
+        "history": "0301",
+        "visible": true
+      },
+      {
+        "title": "My Page > Delivery Address Management > Delivery Address Management (FO_MC_MY071000/FO_MC_MY071001P/FO_MC_MY071002P)",
+        "description": "./my-page/delivery-address",
+        "link": "/my-page/delivery-address",
+        "history": "0402",
+        "visible": true
+      },
+      {
+        "title": "My Page > Order Details > Single delivery address > After requesting exchange and Change delivery address (FO_MC_MY014001/FO_MC_MY014004P)",
+        "description": "./my-page/order-detail/10176?type=MULTIPLE_ADDRESS",
+        "link": "/my-page/order-detail/10176?type=MULTIPLE_ADDRESS",
+        "history": "0404 0410",
+        "visible": true
+      },
+      {
+        "title": "My Page > Order Details > Single delivery address > After Request for Return(FO_MC_MY014002)",
+        "description": "./my-page/order-detail/10157?type=MULTIPLE_ADDRESS",
+        "link": "/my-page/order-detail/10157?type=MULTIPLE_ADDRESS",
+        "history": "0410",
+        "visible": true
+      },
+      {
+        "title": "Order_My Page_Order Details_Order Details>Single Delivery Address (FO_MC_MY014000)",
+        "description": "./my-page/order-detail/10174",
+        "link": "/my-page/order-detail/10174",
+        "history": "0404",
+        "visible": true
+      },
+      {
+        "title": "Claim_My Page_Shopping Information (Order/Delivery Status)_Return Details (FO_MC_MY016008)",
+        "description": "./my-page/shopping-information/refund/10148",
+        "link": "/my-page/shopping-information/refund/10148",
+        "history": "0410",
+        "visible": true
+      },
+      {
+        "title": "Claim_My Page_Shopping Information (Order/Delivery Status)_Exchange History (FO_MC_MY016009)",
+        "description": "./my-page/shopping-information/exchange-history/10148",
+        "link": "/my-page/shopping-information/exchange-history/10148",
+        "history": "0421",
+        "visible": true
+      },
+      {
+        "title": "My Page > Order/Delivery Inquiry > Order Cancellation Application (FO_MC_MY015000)",
+        "description": "./my-page/order-cancel?orderKey=10176",
+        "link": "/my-page/order-cancel?orderKey=10176",
+        "history": "0412",
+        "visible": true
+      }
+    ]
+  }
+]

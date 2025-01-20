@@ -1,0 +1,63 @@
+{
+  "cart": {
+    "title": "장바구니",
+    "description": {
+      "information": {
+        "title": "장바구니 안내",
+        "list": {
+          "first": "장바구니에 담긴 상품은 180일 동안 보관 됩니다.",
+          "second": "장바구니에 담은 상품은 가격이나 혜택의 변동이 있을 수 있습니다."
+        }
+      },
+      "interest": {
+        "title": "무이자 안내",
+        "list": {
+          "first": "무이자 할부 개월수가 다른 상품을 한번에 주문할 경우 가장 낮은 할부 개월수로 적용 됩니다."
+        }
+      }
+    },
+    "empty": {
+      "description": "장바구니에 담긴 상품이 없습니다.",
+      "buttonText": "오늘의 추천상품"
+    },
+    "header": {
+      "selectAll": "전체선택",
+      "deleteSelected": "선택삭제",
+      "deleteExpired": "품절상품 삭제"
+    },
+    "payment": {
+      "title": "결제 예정 금액",
+      "totalProduct": "총 상품금액",
+      "totalDiscount": "총 할인금액",
+      "totalShippingCost": "총 배송비",
+      "include": "포함",
+      "orderSelectedProduct": "선택상품주문",
+      "paymentShippingCost": "배송비"
+    },
+    "productDetail": {
+      "changeOptionBtn": "옵션/수량 변경",
+      "buyNowBtn": "바로구매",
+      "unit": "개",
+      "change": "변경하기"
+    },
+    "modalText": {
+      "confirmDeleteProductExpired": "품절 상품을 삭제 하시겠습니까? ",
+      "confirmDeleteProductSelected": "선택 상품을 삭제 하시겠습니까?",
+      "noHaveAnyProduct": "선택된 상품이 없습니다.",
+      "noHaveAnyProductExpired": "품절 상품이 없습니다.",
+      "removerSuccess": "삭제 되었습니다.",
+      "orderComingSoon": "주문 기능이 곧 제공될 예정입니다.",
+      "ageVerify": "연령 확인 기능이 곧 출시될 예정입니다."
+    },
+    "suggestionProduct": {
+      "title": "함께 구매하기 좋은 상품"
+    },
+    "detailPriceModal": {
+      "instantDiscount": "즉시할인",
+      "price": "판매가",
+      "totalDiscountAmount": "총 할인 금액",
+      "expectedPurchasePrice": "예상구매가",
+      "description": "상품 구매시 받을 수 있는 할인혜택 정보입니다."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "button": {
+      "btnExpander": "Expand",
+      "btnCollapse": "Collapse",
+      "view": "View",
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "viewContent": "View content",
+      "resendNumber": "Resend authentication number",
+      "sendNumber": "Send authentication number",
+      "check": "check"
+  }
+}

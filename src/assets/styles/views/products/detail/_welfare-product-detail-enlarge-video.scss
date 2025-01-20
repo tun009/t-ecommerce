@@ -1,0 +1,74 @@
+@import '../../../commons/_welfare-variables';
+
+.wf-product-enlarge-video-wrap {
+  .wf-product-enlarge-video--play-pause {
+    display: none;
+    &.wf-show {
+      display: flex;
+    }
+  }
+  &:hover .wf-product-enlarge-video--play-pause {
+    display: flex;
+  }
+}
+
+.wf-product-video-control {
+
+  .wf-product-video-line {
+    cursor: pointer;
+
+    .wf-progress-bar {
+      display: flex;
+      align-items: center;
+      height: 24px;
+      --progress-bar-range: 0%;
+      cursor: pointer;
+      
+      input[type="range"] {
+        -webkit-appearance: none;
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+        height: 100%;
+        background: transparent;
+        z-index: 2;
+  
+        &:focus {
+          outline: none;
+        }
+  
+        &::before {
+          position: absolute;
+          content: "";
+          width: var(--progress-bar-range);
+          height: 5px;
+          background: $white-ff;
+          margin-top: 9.5px;
+          z-index: -1;
+        }
+        &::after {
+          position: absolute;
+          content: "";
+          right: 0;
+          width: calc(100% - var(--progress-bar-range));
+          height: 5px;
+          background: $gray2;
+          margin-top: 9.5px;
+          z-index: -1;
+        }
+      }
+  
+      input[type="range"]::-webkit-slider-thumb {
+        width: 1px;
+        height: 5px;
+        border: none;
+        -webkit-appearance: none;
+        background-color: $white-ff;
+        z-index: 1;
+        position: relative;
+      }
+  
+    }
+  }
+}
+

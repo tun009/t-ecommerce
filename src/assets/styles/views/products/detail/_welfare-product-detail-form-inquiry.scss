@@ -1,0 +1,9 @@
+@import '../../../commons/_welfare-variables';
+
+:deep(textarea) {
+  line-height: 160% !important;
+}
+
+:deep(.wf-color--g-333) {
+  color: $gray1;
+}

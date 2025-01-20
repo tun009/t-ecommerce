@@ -1,0 +1,31 @@
+@import './welfare-variables';
+
+.wf-img-wrapper {
+  padding-top: 100%;
+  height: 0;
+  width: 100%;
+  background: $gray8 url('@/assets/images/no-image.png') 50% 50% no-repeat;
+  background-size: contain;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.wf-image-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wf-image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: $grey-f8;
+}
+
+.wf-banner-image {
+  padding-top: 24.78%;
+}

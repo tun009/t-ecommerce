@@ -1,0 +1,10 @@
+@import '../commons/welfare-variables';
+.wf-move-to-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 205px 0;
+    text-align: center;
+}

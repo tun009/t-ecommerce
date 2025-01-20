@@ -1,0 +1,22 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-top: 124px;
+  .error-main-content {
+    .wf-error-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .wf-error-desc {
+      padding: 0 15px;
+    }
+  }
+  :deep(.custom-button) {
+    width: 140px;
+  }
+}

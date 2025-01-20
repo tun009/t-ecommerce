@@ -1,0 +1,101 @@
+@import '../commons/welfare-variables';
+
+$width: calc(calc(100vw - 32px ) / 5);
+$width-items: 55px;
+$width-item-active: 79px;
+$size-indicator: 60px;
+$distance-gap: calc((100vw - 32px - $width-item-active - 4 * $width-items) / 4);
+
+.mz-bottom-navbar {
+  padding: 0 16px;
+  background: $grey-e7;
+  border-top: 1px solid $grey-d7;
+  transition: all 0.3s;
+  height: 93px;
+}
+
+.mz-bottom-navbar .mz-bottom-list {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0 9px 0;
+}
+
+.wf-bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.wf-bottom_nav-indicator-container {
+  position: absolute;
+  width: $width-item-active;
+  height: $size-indicator;
+  bottom: 50%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  padding-bottom: 6px;
+}
+
+.wf-bottom_nav-indicator {
+  background-color: $gray1;
+  width: $size-indicator;
+  height: $size-indicator;
+  border-radius: 50%;
+}
+
+.mz-bottom-list-item {
+  z-index: 1;
+  width: $width-items;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  row-gap: 7px;
+  padding-bottom: 29px;
+}
+.mz-bottom-list-item.active {
+  width: $width-item-active;
+  padding-bottom: 23px;
+  padding-top: 20px;
+}
+
+.mz-bottom-list-item.active span {
+  color: $gray1;
+  font-size: 13px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  margin-bottom: -4px;
+}
+
+.mz-bottom-list-item.active i {
+  transform: translateY(calc(-31px + 50%));
+  transition: all 0.3s ease;
+}
+
+.mz-bottom-list-item:nth-child(1).active ~ .wf-bottom_nav-indicator-container {
+  left: 0;
+}
+
+.mz-bottom-list-item:nth-child(2).active ~ .wf-bottom_nav-indicator-container {
+  left: calc(calc($width-items + $distance-gap) * 1);
+}
+
+.mz-bottom-list-item:nth-child(3).active ~ .wf-bottom_nav-indicator-container {
+  left: calc(($width-items + $distance-gap) * 2);
+}
+
+.mz-bottom-list-item:nth-child(4).active ~ .wf-bottom_nav-indicator-container {
+  left: calc(($width-items + $distance-gap) * 3);
+}
+
+.mz-bottom-list-item:nth-child(5).active ~ .wf-bottom_nav-indicator-container {
+  left: calc(calc($width-items + $distance-gap) * 4);
+}

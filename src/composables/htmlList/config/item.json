@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Item",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Product Detail (FO_MC_IT011000)",
+        "description": "./product-detail?productKey=1",
+        "link": "/product-detail?productKey=1",
+        "history": "0119 0402",
+        "visible": true
+      },
+      {
+        "title": "Section Delivery/Exchange/Return/Refund (FO_MC_IT012011)",
+        "description": "./product-detail?productKey=136",
+        "link": "/product-detail?productKey=136",
+        "history": "0119 0219",
+        "visible": true
+      },
+      {
+        "title": "Section Products reviews (FO_MC_IT012012)",
+        "description": "./product-detail?productKey=2",
+        "link": "/product-detail?productKey=2",
+        "history": "0119 0321",
+        "visible": true
+      },
+      {
+        "title": "Product Detail Popup Buy (FO_MC_IT011001P)",
+        "description": "./product-detail?productKey=117",
+        "link": "/product-detail?productKey=117",
+        "history": "0119",
+        "visible": true
+      },
+
+      {
+        "title": "Section Product Details_Tab-Product Code (FO_MC_IT012010/FO_MC_IT011041P)",
+        "description": "./product-detail?productKey=117",
+        "link": "/product-detail?productKey=117",
+        "history": "0119",
+        "visible": true
+      },
+      {
+        "title": "Section Discount price information modal (FO_MC_IT011002P)",
+        "description": "./product-detail?productKey=117",
+        "link": "/product-detail?productKey=117",
+        "history": "0119",
+        "visible": true
+      },
+      {
+        "title": "Product Details Product Information Notice (FO_MC_IT012014)",
+        "description": "./product-detail?productKey=1",
+        "link": "/product-detail?productKey=1",
+        "history": "0125",
+        "visible": true
+      },
+      {
+        "title": "Product Details Product Issuance Information (FO_MC_IT012016)",
+        "description": "./product-detail?productKey=1",
+        "link": "/product-detail?productKey=1",
+        "history": "0125",
+        "visible": true
+      },
+      {
+        "title": "Product Details Product Inquiries Tab (FO_MC_IT012013, FO_MC_IT012014P)",
+        "description": "./product-detail?productKey=1",
+        "link": "/product-detail?productKey=1",
+        "history": "0125",
+        "visible": true
+      },
+      {
+        "title": "Product Details [Toast Pop-up] Like Success (FO_MC_IT011020P)",
+        "description": "./product-detail?productKey=136",
+        "link": "/product-detail?productKey=136",
+        "history": "0206",
+        "visible": true
+      },
+      {
+        "title": "Product Details [Toast Pop-up] Unlike (FO_MC_IT011021P)",
+        "description": "./product-detail?productKey=136",
+        "link": "/product-detail?productKey=136",
+        "history": "0206",
+        "visible": true
+      },
+      {
+        "title": "Product Details  Add to Cart Completed (FO_MC_IT011022P)",
+        "description": "./product-detail?productKey=136",
+        "link": "/product-detail?productKey=136",
+        "history": "0206",
+        "visible": true
+      },
+      {
+        "title": "Product Details  Point information (FO_MC_IT011004P)",
+        "description": "./preview/product-detail/popup",
+        "link": "/preview/product-detail/popup",
+        "history": "0216",
+        "visible": true
+      },
+      {
+        "title": "Product Details  Additional shipping cost information (FO_MC_IT011005P)",
+        "description": "./preview/product-detail/popup",
+        "link": "/preview/product-detail/popup",
+        "history": "0216",
+        "visible": true
+      },
+      {
+        "title": "Product Details_Product Details_[Pop-up] View photo/video product reviews, detailed product reviews, report product review (FO_MC_IT011012P/FO_MC_IT011013P/FO_MC_IT011023P)",
+        "description": "./product-detail?productKey=2",
+        "link": "/product-detail?productKey=2",
+        "history": "0228 0320",
+        "visible": true
+      }
+    ]
+  }
+]

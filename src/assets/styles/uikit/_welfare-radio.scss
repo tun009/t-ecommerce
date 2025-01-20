@@ -1,0 +1,59 @@
+/* primevue radiobutton */
+@import '../commons/welfare-variables';
+:deep(.p-radiobutton) {
+  display: flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+:deep(.p-radiobutton-box) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 1px solid $grey-e7;
+  background: $white;
+  /* empty_inner */
+  box-shadow: none;
+  cursor: pointer;
+}
+
+:deep(.p-radiobutton-box.p-highlight),
+:deep(.p-radiobutton-box.p-radiobutton-box-checked) {
+  border: 1px solid $gray1;
+}
+
+:deep(.p-radiobutton-box.p-radiobutton-disabled),
+:deep(.p-radiobutton-box.p-radiobutton-box-disabled) {
+  border: 1px solid $grey-e7;
+  background: $grey-f5;
+  cursor: default;
+}
+
+:deep(.p-radiobutton-icon) {
+  transform: none;
+  visibility: hidden;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+:deep(.p-radiobutton-box.p-highlight .p-radiobutton-icon),
+:deep(.p-radiobutton-box.p-radiobutton-box-checked .p-radiobutton-icon) {
+  visibility: visible;
+  background: $gray1;
+}
+
+:deep(.p-radiobutton-box.p-radiobutton-disabled .p-radiobutton-icon),
+:deep(.p-radiobutton-box.p-radiobutton-box-disabled .p-radiobutton-icon) {
+  background: $gray6;
+}

@@ -1,0 +1,31 @@
+@import '@/assets/styles/commons/welfare-variables';
+
+.wf-fix-position {
+  position: fixed;
+  top: 0;
+
+  .wf-caution-title {
+    background-color: $red-1b;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transform: translateX(-50%);
+  }
+
+  .wf-modal-term-and-condition {
+    display: flex;
+    row-gap: 18px;
+    flex-direction: column;
+    align-items: center;
+    width: $width-modal;
+    background-color: $white-ff;
+    padding: 20px 16px 30px;
+    position: fixed;
+    top: 108px;
+    transform: translateX(-50%);
+    max-height: calc(100dvh - 140px);
+  }
+}
