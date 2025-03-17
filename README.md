@@ -1,4 +1,3 @@
-# Welfare-fo
 
 ## Recommended IDE Setup
 
