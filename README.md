@@ -47,8 +47,6 @@ yarn build
 yarn lint
 ```
 
-After run script, the dev server will start at http://127.0.0.1:5137, you can access through it.
-HTML list url: http://127.0.0.1:5137/html-list
 
 #### Additional resources
 
